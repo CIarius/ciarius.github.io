@@ -1,0 +1,2875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="listview.xsl"?>
+<ROWSET>
+ <ROW>
+  <CUSTOMER_ID>177</CUSTOMER_ID>
+  <NAME>United Continental Holdings</NAME>
+  <ADDRESS>2904 S Salina St, Syracuse, NY</ADDRESS>
+  <WEBSITE>http://www.unitedcontinentalholdings.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>180</CUSTOMER_ID>
+  <NAME>INTL FCStone</NAME>
+  <ADDRESS>5344 Haverford Ave, Philadelphia, PA</ADDRESS>
+  <WEBSITE>http://www.intlfcstone.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>184</CUSTOMER_ID>
+  <NAME>Publix Super Markets</NAME>
+  <ADDRESS>1795 Wu Meng, Muang Chonburi, </ADDRESS>
+  <WEBSITE>http://www.publix.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>187</CUSTOMER_ID>
+  <NAME>ConocoPhillips</NAME>
+  <ADDRESS>Walpurgisstr 69, Munich, </ADDRESS>
+  <WEBSITE>http://www.conocophillips.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>190</CUSTOMER_ID>
+  <NAME>3M</NAME>
+  <ADDRESS>Via Frenzy 6903, Roma, </ADDRESS>
+  <WEBSITE>http://www.3m.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>192</CUSTOMER_ID>
+  <NAME>Exelon</NAME>
+  <ADDRESS>Via Luminosa 162, Firenze, </ADDRESS>
+  <WEBSITE>http://www.exeloncorp.com</WEBSITE>
+  <CREDIT_LIMIT>500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>208</CUSTOMER_ID>
+  <NAME>Tesoro</NAME>
+  <ADDRESS>Via Notoriosa 1942, Firenze, </ADDRESS>
+  <WEBSITE>http://www.tsocorp.com</WEBSITE>
+  <CREDIT_LIMIT>500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>207</CUSTOMER_ID>
+  <NAME>Northwestern Mutual</NAME>
+  <ADDRESS>1831 No Wong, Peking, </ADDRESS>
+  <WEBSITE>http://www.northwesternmutual.com</WEBSITE>
+  <CREDIT_LIMIT>3600</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>200</CUSTOMER_ID>
+  <NAME>Enterprise Products Partners</NAME>
+  <ADDRESS>Via Notoriosa 1949, Firenze, </ADDRESS>
+  <WEBSITE>http://www.enterpriseproducts.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>204</CUSTOMER_ID>
+  <NAME>Rite Aid</NAME>
+  <ADDRESS>Piazza Cacchiatore 23, San Giminiano, </ADDRESS>
+  <WEBSITE>http://www.riteaid.com</WEBSITE>
+  <CREDIT_LIMIT>3600</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>212</CUSTOMER_ID>
+  <NAME>Qualcomm</NAME>
+  <ADDRESS>Piazza Svizzera, Milano, </ADDRESS>
+  <WEBSITE>http://www.qualcomm.com</WEBSITE>
+  <CREDIT_LIMIT>500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>216</CUSTOMER_ID>
+  <NAME>EMC</NAME>
+  <ADDRESS>Via Delle Grazie 11, San Giminiano, </ADDRESS>
+  <WEBSITE>http://www.emc.com</WEBSITE>
+  <CREDIT_LIMIT>700</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>220</CUSTOMER_ID>
+  <NAME>Time Warner Cable</NAME>
+  <ADDRESS>1597 Legend St, Mysore, Kar</ADDRESS>
+  <WEBSITE>http://www.twc.com</WEBSITE>
+  <CREDIT_LIMIT>3700</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>223</CUSTOMER_ID>
+  <NAME>Northrop Grumman</NAME>
+  <ADDRESS>1606 Sangam Blvd, New Delhi, </ADDRESS>
+  <WEBSITE>http://www.northropgrumman.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>39</CUSTOMER_ID>
+  <NAME>Lear</NAME>
+  <ADDRESS>2115 N Towne Ln Ne, Cedar Rapids, IA</ADDRESS>
+  <WEBSITE>http://www.lear.com</WEBSITE>
+  <CREDIT_LIMIT>500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>43</CUSTOMER_ID>
+  <NAME>Facebook</NAME>
+  <ADDRESS>5112 Sw 9Th St, Des Moines, IA</ADDRESS>
+  <WEBSITE>http://www.facebook.com</WEBSITE>
+  <CREDIT_LIMIT>500</CREDIT_LIMIT>
+  <ORDERS>1</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>46</CUSTOMER_ID>
+  <NAME>Supervalu</NAME>
+  <ADDRESS>8989 N Port Washington Rd, Milwaukee, WI</ADDRESS>
+  <WEBSITE>http://www.supervalu.com</WEBSITE>
+  <CREDIT_LIMIT>500</CREDIT_LIMIT>
+  <ORDERS>5</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>49</CUSTOMER_ID>
+  <NAME>NextEra Energy</NAME>
+  <ADDRESS>4715 Sprecher Rd, Madison, WI</ADDRESS>
+  <WEBSITE>http://www.nexteraenergy.com</WEBSITE>
+  <CREDIT_LIMIT>600</CREDIT_LIMIT>
+  <ORDERS>5</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>52</CUSTOMER_ID>
+  <NAME>PG&amp;E Corp.</NAME>
+  <ADDRESS>8600 W National Ave, Milwaukee, WI</ADDRESS>
+  <WEBSITE>http://www.pge.com</WEBSITE>
+  <CREDIT_LIMIT>700</CREDIT_LIMIT>
+  <ORDERS>1</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>55</CUSTOMER_ID>
+  <NAME>Goodyear Tire &amp; Rubber</NAME>
+  <ADDRESS>600 N Broadway Fl 1, Milwaukee, WI</ADDRESS>
+  <WEBSITE>http://www.goodyear.com</WEBSITE>
+  <CREDIT_LIMIT>700</CREDIT_LIMIT>
+  <ORDERS>1</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>59</CUSTOMER_ID>
+  <NAME>Micron Technology</NAME>
+  <ADDRESS>411 E Wisconsin Ave # 2550, Milwaukee, WI</ADDRESS>
+  <WEBSITE>http://www.micron.com</WEBSITE>
+  <CREDIT_LIMIT>700</CREDIT_LIMIT>
+  <ORDERS>1</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>62</CUSTOMER_ID>
+  <NAME>ConAgra Foods</NAME>
+  <ADDRESS>122 E Dayton St, Madison, WI</ADDRESS>
+  <WEBSITE>http://www.conagrafoods.com</WEBSITE>
+  <CREDIT_LIMIT>900</CREDIT_LIMIT>
+  <ORDERS>1</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>66</CUSTOMER_ID>
+  <NAME>Bank of New York Mellon Corp.</NAME>
+  <ADDRESS>666 22Nd Ave Ne, Minneapolis, MN</ADDRESS>
+  <WEBSITE>http://www.bnymellon.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>1</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>71</CUSTOMER_ID>
+  <NAME>Genuine Parts</NAME>
+  <ADDRESS>200 1St St Sw, Rochester, MN</ADDRESS>
+  <WEBSITE>http://www.genpt.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>75</CUSTOMER_ID>
+  <NAME>Omnicom Group</NAME>
+  <ADDRESS>2134 W Genesee St, Syracuse, NY</ADDRESS>
+  <WEBSITE>http://www.omnicomgroup.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>79</CUSTOMER_ID>
+  <NAME>Monsanto</NAME>
+  <ADDRESS>137 Lark St, Albany, NY</ADDRESS>
+  <WEBSITE>http://www.monsanto.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>83</CUSTOMER_ID>
+  <NAME>National Oilwell Varco</NAME>
+  <ADDRESS>1 Palisade Ave Fl 2, Yonkers, NY</ADDRESS>
+  <WEBSITE>http://www.nov.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>86</CUSTOMER_ID>
+  <NAME>Marriott International</NAME>
+  <ADDRESS>Po Box 2152, Buffalo, NY</ADDRESS>
+  <WEBSITE>http://www.marriott.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>228</CUSTOMER_ID>
+  <NAME>Kinder Morgan</NAME>
+  <ADDRESS>1614 Gitanjali Rd, Calcutta, </ADDRESS>
+  <WEBSITE>http://www.kindermorgan.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>231</CUSTOMER_ID>
+  <NAME>Molina Healthcare</NAME>
+  <ADDRESS>1617 Crackers St, Bangalore - India, Kar</ADDRESS>
+  <WEBSITE>http://www.molinahealthcare.com</WEBSITE>
+  <CREDIT_LIMIT>300</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>235</CUSTOMER_ID>
+  <NAME>Lincoln National</NAME>
+  <ADDRESS>1622 Roja St, Chennai, Tam</ADDRESS>
+  <WEBSITE>http://www.lfg.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>238</CUSTOMER_ID>
+  <NAME>C.H. Robinson Worldwide</NAME>
+  <ADDRESS>1628 Pataudi St, New Delhi, </ADDRESS>
+  <WEBSITE>http://www.chrobinson.com</WEBSITE>
+  <CREDIT_LIMIT>1900</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>242</CUSTOMER_ID>
+  <NAME>Synnex</NAME>
+  <ADDRESS>1647 Suspense St, Cochin, Ker</ADDRESS>
+  <WEBSITE>http://www.synnex.com</WEBSITE>
+  <CREDIT_LIMIT>500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>245</CUSTOMER_ID>
+  <NAME>HollyFrontier</NAME>
+  <ADDRESS>1656 Veterans Rd, Chennai, Tam</ADDRESS>
+  <WEBSITE>http://www.hollyfrontier.com</WEBSITE>
+  <CREDIT_LIMIT>2500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>249</CUSTOMER_ID>
+  <NAME>PBF Energy</NAME>
+  <ADDRESS>Piazza Quattre Stagioni 4, Roma, </ADDRESS>
+  <WEBSITE>http://www.pbfenergy.com</WEBSITE>
+  <CREDIT_LIMIT>3700</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>255</CUSTOMER_ID>
+  <NAME>Waste Management</NAME>
+  <ADDRESS>Via Di Firenze 231, Roma, </ADDRESS>
+  <WEBSITE>http://www.wm.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>259</CUSTOMER_ID>
+  <NAME>Parker-Hannifin</NAME>
+  <ADDRESS>Canale Grande 2, Roma, </ADDRESS>
+  <WEBSITE>http://www.parker.com</WEBSITE>
+  <CREDIT_LIMIT>700</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>263</CUSTOMER_ID>
+  <NAME>Farmers Insurance Exchange</NAME>
+  <ADDRESS>Via Dello Croce 93, Tellaro, </ADDRESS>
+  <WEBSITE>http://www.farmers.com</WEBSITE>
+  <CREDIT_LIMIT>100</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>268</CUSTOMER_ID>
+  <NAME>VF</NAME>
+  <ADDRESS>1971 Limelight Blvd, Samutprakarn, </ADDRESS>
+  <WEBSITE>http://www.vfc.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>313</CUSTOMER_ID>
+  <NAME>Hertz Global Holdings</NAME>
+  <ADDRESS>1616 Crackers Blvd, Bangalore - India, Kar</ADDRESS>
+  <WEBSITE>http://www.hertz.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>319</CUSTOMER_ID>
+  <NAME>BB&amp;T Corp.</NAME>
+  <ADDRESS>1668 Chong Tao, Beijing, </ADDRESS>
+  <WEBSITE>http://www.bbt.com</WEBSITE>
+  <CREDIT_LIMIT>200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>32</CUSTOMER_ID>
+  <NAME>Global Partners</NAME>
+  <ADDRESS>1135 Catherine St, Ann Arbor, MI</ADDRESS>
+  <WEBSITE>http://www.globalp.com</WEBSITE>
+  <CREDIT_LIMIT>400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>63</CUSTOMER_ID>
+  <NAME>Sempra Energy</NAME>
+  <ADDRESS>633 S Hawley Rd, Milwaukee, WI</ADDRESS>
+  <WEBSITE>http://www.sempra.com</WEBSITE>
+  <CREDIT_LIMIT>900</CREDIT_LIMIT>
+  <ORDERS>1</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>78</CUSTOMER_ID>
+  <NAME>Precision Castparts</NAME>
+  <ADDRESS>726 Union St, Hudson, NY</ADDRESS>
+  <WEBSITE>http://www.precast.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>111</CUSTOMER_ID>
+  <NAME>W.W. Grainger</NAME>
+  <ADDRESS>378 S Negley Ave, Pittsburgh, PA</ADDRESS>
+  <WEBSITE>http://www.grainger.com</WEBSITE>
+  <CREDIT_LIMIT>1500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>125</CUSTOMER_ID>
+  <NAME>Air Products &amp; Chemicals</NAME>
+  <ADDRESS>612 Jefferson Ave, Scranton, PA</ADDRESS>
+  <WEBSITE>http://www.airproducts.com</WEBSITE>
+  <CREDIT_LIMIT>2300</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>163</CUSTOMER_ID>
+  <NAME>Charter Communications</NAME>
+  <ADDRESS>802 North Ave, Pittsburgh, PA</ADDRESS>
+  <WEBSITE>http://www.charter.com</WEBSITE>
+  <CREDIT_LIMIT>3600</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>195</CUSTOMER_ID>
+  <NAME>Applied Materials</NAME>
+  <ADDRESS>Via Dolorosa 69, Tellaro, </ADDRESS>
+  <WEBSITE>http://www.appliedmaterials.com</WEBSITE>
+  <CREDIT_LIMIT>700</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>206</CUSTOMER_ID>
+  <NAME>Ally Financial</NAME>
+  <ADDRESS>Via Notoriosa 1949, Ventimiglia, </ADDRESS>
+  <WEBSITE>http://www.ally.com</WEBSITE>
+  <CREDIT_LIMIT>3600</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>218</CUSTOMER_ID>
+  <NAME>Lennar</NAME>
+  <ADDRESS>1592 Silverado St, Bangalore, Kar</ADDRESS>
+  <WEBSITE>http://www.lennar.com</WEBSITE>
+  <CREDIT_LIMIT>700</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>243</CUSTOMER_ID>
+  <NAME>Hormel Foods</NAME>
+  <ADDRESS>1648 Anamika St, Cochin, Ker</ADDRESS>
+  <WEBSITE>http://www.hormelfoods.com</WEBSITE>
+  <CREDIT_LIMIT>500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>254</CUSTOMER_ID>
+  <NAME>PayPal Holdings</NAME>
+  <ADDRESS>Via Dello Croce 93, Roma, </ADDRESS>
+  <WEBSITE>http://www.paypal.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>266</CUSTOMER_ID>
+  <NAME>Autoliv</NAME>
+  <ADDRESS>Via Delle Capeletti 52, San Giminiano, </ADDRESS>
+  <WEBSITE>http://www.autoliv.com</WEBSITE>
+  <CREDIT_LIMIT>400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>294</CUSTOMER_ID>
+  <NAME>Corning</NAME>
+  <ADDRESS>Pfannenstilstr 13, Egg, ZH</ADDRESS>
+  <WEBSITE>http://www.corning.com</WEBSITE>
+  <CREDIT_LIMIT>2300</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>301</CUSTOMER_ID>
+  <NAME>Univar</NAME>
+  <ADDRESS>1598 Legend St, Bangalore, Kar</ADDRESS>
+  <WEBSITE>http://www.univar.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>314</CUSTOMER_ID>
+  <NAME>Thrivent Financial for Lutherans</NAME>
+  <ADDRESS>1617 Crackers St, Bangalore - India, Kar</ADDRESS>
+  <WEBSITE>http://www.thrivent.com</WEBSITE>
+  <CREDIT_LIMIT>900</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>88</CUSTOMER_ID>
+  <NAME>Walmart</NAME>
+  <ADDRESS>1790 Grand Blvd, Schenectady, NY</ADDRESS>
+  <WEBSITE>http://www.walmart.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>89</CUSTOMER_ID>
+  <NAME>Exxon Mobil</NAME>
+  <ADDRESS>7 Ingelside Ln, White Plains, NY</ADDRESS>
+  <WEBSITE>http://www.exxonmobil.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>90</CUSTOMER_ID>
+  <NAME>Apple</NAME>
+  <ADDRESS>18 Glenridge Rd, Schenectady, NY</ADDRESS>
+  <WEBSITE>http://www.apple.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>91</CUSTOMER_ID>
+  <NAME>Berkshire Hathaway</NAME>
+  <ADDRESS>6432 Rising Sun Ave, Philadelphia, PA</ADDRESS>
+  <WEBSITE>http://www.berkshirehathaway.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>92</CUSTOMER_ID>
+  <NAME>McKesson</NAME>
+  <ADDRESS>Rr 10, Reading, PA</ADDRESS>
+  <WEBSITE>http://www.mckesson.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>93</CUSTOMER_ID>
+  <NAME>UnitedHealth Group</NAME>
+  <ADDRESS>2455 Rose Garden Rd, Pittsburgh, PA</ADDRESS>
+  <WEBSITE>http://www.unitedhealthgroup.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>94</CUSTOMER_ID>
+  <NAME>CVS Health</NAME>
+  <ADDRESS>1812 Timberline Rd, Altoona, PA</ADDRESS>
+  <WEBSITE>http://www.cvshealth.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>95</CUSTOMER_ID>
+  <NAME>General Motors</NAME>
+  <ADDRESS>141 Schiller St, Reading, PA</ADDRESS>
+  <WEBSITE>http://www.gm.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>96</CUSTOMER_ID>
+  <NAME>Ford Motor</NAME>
+  <ADDRESS>1126 Pawlings Rd, Norristown, PA</ADDRESS>
+  <WEBSITE>http://www.ford.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>97</CUSTOMER_ID>
+  <NAME>AT&amp;T</NAME>
+  <ADDRESS>55 Church Hill Rd, Reading, PA</ADDRESS>
+  <WEBSITE>http://www.att.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>98</CUSTOMER_ID>
+  <NAME>General Electric</NAME>
+  <ADDRESS>354 N Prince St, Lancaster, PA</ADDRESS>
+  <WEBSITE>http://www.ge.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>99</CUSTOMER_ID>
+  <NAME>AmerisourceBergen</NAME>
+  <ADDRESS>115 Chestnut St, Philadelphia, PA</ADDRESS>
+  <WEBSITE>http://www.amerisourcebergen.com</WEBSITE>
+  <CREDIT_LIMIT>1400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>100</CUSTOMER_ID>
+  <NAME>Verizon</NAME>
+  <ADDRESS>2899 Grand Ave, Pittsburgh, PA</ADDRESS>
+  <WEBSITE>http://www.verizon.com</WEBSITE>
+  <CREDIT_LIMIT>1400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>101</CUSTOMER_ID>
+  <NAME>Chevron</NAME>
+  <ADDRESS>Po Box 39, Indiana, PA</ADDRESS>
+  <WEBSITE>http://www.chevron.com</WEBSITE>
+  <CREDIT_LIMIT>1400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>102</CUSTOMER_ID>
+  <NAME>Costco</NAME>
+  <ADDRESS>1604 Broadway Ave, Pittsburgh, PA</ADDRESS>
+  <WEBSITE>http://www.costco.com</WEBSITE>
+  <CREDIT_LIMIT>1400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>103</CUSTOMER_ID>
+  <NAME>Fannie Mae</NAME>
+  <ADDRESS>4734 Liberty Ave, Pittsburgh, PA</ADDRESS>
+  <WEBSITE>http://www.fanniemae.com</WEBSITE>
+  <CREDIT_LIMIT>1400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>104</CUSTOMER_ID>
+  <NAME>Kroger</NAME>
+  <ADDRESS>21 Thornwood Rd, Harrisburg, PA</ADDRESS>
+  <WEBSITE>http://www.thekrogerco.com</WEBSITE>
+  <CREDIT_LIMIT>1400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>105</CUSTOMER_ID>
+  <NAME>Amazon.com</NAME>
+  <ADDRESS>3725 W Lake Rd, Erie, PA</ADDRESS>
+  <WEBSITE>http://www.amazon.com</WEBSITE>
+  <CREDIT_LIMIT>1400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>106</CUSTOMER_ID>
+  <NAME>Walgreens Boots Alliance</NAME>
+  <ADDRESS>1808 4Th Ave, Altoona, PA</ADDRESS>
+  <WEBSITE>http://www.walgreensbootsalliance.com</WEBSITE>
+  <CREDIT_LIMIT>1400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>107</CUSTOMER_ID>
+  <NAME>HP</NAME>
+  <ADDRESS>Station Sq, Pittsburgh, PA</ADDRESS>
+  <WEBSITE>http://www.hp.com</WEBSITE>
+  <CREDIT_LIMIT>1400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>108</CUSTOMER_ID>
+  <NAME>Cardinal Health</NAME>
+  <ADDRESS>4020 Garden Ave, Erie, PA</ADDRESS>
+  <WEBSITE>http://www.cardinal.com</WEBSITE>
+  <CREDIT_LIMIT>1400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>109</CUSTOMER_ID>
+  <NAME>Express Scripts Holding</NAME>
+  <ADDRESS>100 N Peach St, Philadelphia, PA</ADDRESS>
+  <WEBSITE>http://www.express-scripts.com</WEBSITE>
+  <CREDIT_LIMIT>1400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>110</CUSTOMER_ID>
+  <NAME>J.P. Morgan Chase</NAME>
+  <ADDRESS>835 Heister Ln, Reading, PA</ADDRESS>
+  <WEBSITE>http://www.jpmorganchase.com</WEBSITE>
+  <CREDIT_LIMIT>1400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>112</CUSTOMER_ID>
+  <NAME>Boeing</NAME>
+  <ADDRESS>5643 N 5Th St, Philadelphia, PA</ADDRESS>
+  <WEBSITE>http://www.boeing.com</WEBSITE>
+  <CREDIT_LIMIT>1500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>113</CUSTOMER_ID>
+  <NAME>Microsoft</NAME>
+  <ADDRESS>1401 W Warren Rd, Bradford, PA</ADDRESS>
+  <WEBSITE>http://www.microsoft.com</WEBSITE>
+  <CREDIT_LIMIT>1500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>114</CUSTOMER_ID>
+  <NAME>Bank of America Corp.</NAME>
+  <ADDRESS>815 Freeport Rd, Pittsburgh, PA</ADDRESS>
+  <WEBSITE>http://www.bankofamerica.com</WEBSITE>
+  <CREDIT_LIMIT>1500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>115</CUSTOMER_ID>
+  <NAME>Wells Fargo</NAME>
+  <ADDRESS>327 N Washington Ave # 300, Scranton, PA</ADDRESS>
+  <WEBSITE>http://www.wellsfargo.com</WEBSITE>
+  <CREDIT_LIMIT>1900</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>117</CUSTOMER_ID>
+  <NAME>Home Depot</NAME>
+  <ADDRESS>4901 Locust Ln, Harrisburg, PA</ADDRESS>
+  <WEBSITE>http://www.homedepot.com</WEBSITE>
+  <CREDIT_LIMIT>2300</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>118</CUSTOMER_ID>
+  <NAME>Citigroup</NAME>
+  <ADDRESS>3376 Perrysville Ave, Pittsburgh, PA</ADDRESS>
+  <WEBSITE>http://www.citigroup.com</WEBSITE>
+  <CREDIT_LIMIT>2300</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>119</CUSTOMER_ID>
+  <NAME>Phillips 66</NAME>
+  <ADDRESS>220 Penn Ave # 300, Scranton, PA</ADDRESS>
+  <WEBSITE>http://www.phillips66.com</WEBSITE>
+  <CREDIT_LIMIT>2300</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>121</CUSTOMER_ID>
+  <NAME>IBM</NAME>
+  <ADDRESS>522 Swede St, Norristown, PA</ADDRESS>
+  <WEBSITE>http://www.ibm.com</WEBSITE>
+  <CREDIT_LIMIT>2300</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>122</CUSTOMER_ID>
+  <NAME>Valero Energy</NAME>
+  <ADDRESS>7708 City Ave, Philadelphia, PA</ADDRESS>
+  <WEBSITE>http://www.valero.com</WEBSITE>
+  <CREDIT_LIMIT>2300</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>123</CUSTOMER_ID>
+  <NAME>Anthem</NAME>
+  <ADDRESS>1801 Lititz Pike, Lancaster, PA</ADDRESS>
+  <WEBSITE>http://www.antheminc.com</WEBSITE>
+  <CREDIT_LIMIT>2300</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>124</CUSTOMER_ID>
+  <NAME>Procter &amp; Gamble</NAME>
+  <ADDRESS>101 E Olney Ave, Philadelphia, PA</ADDRESS>
+  <WEBSITE>http://www.pg.com</WEBSITE>
+  <CREDIT_LIMIT>2300</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>127</CUSTOMER_ID>
+  <NAME>Alphabet</NAME>
+  <ADDRESS>36 W 34Th St, Erie, PA</ADDRESS>
+  <WEBSITE>http://www.google.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>128</CUSTOMER_ID>
+  <NAME>Comcast</NAME>
+  <ADDRESS>1007 Mount Royal Blvd, Pittsburgh, PA</ADDRESS>
+  <WEBSITE>http://www.comcastcorporation.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>129</CUSTOMER_ID>
+  <NAME>Target</NAME>
+  <ADDRESS>601 Market St, Philadelphia, PA</ADDRESS>
+  <WEBSITE>http://www.target.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>132</CUSTOMER_ID>
+  <NAME>MetLife</NAME>
+  <ADDRESS>5122 Sinclair Ln, Baltimore, MD</ADDRESS>
+  <WEBSITE>http://www.metlife.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>133</CUSTOMER_ID>
+  <NAME>Archer Daniels Midland</NAME>
+  <ADDRESS>680 Bel Air Rd, Bel Air, MD</ADDRESS>
+  <WEBSITE>http://www.adm.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>135</CUSTOMER_ID>
+  <NAME>Freddie Mac</NAME>
+  <ADDRESS>8004 Stansbury Rd, Baltimore, MD</ADDRESS>
+  <WEBSITE>http://www.freddiemac.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>136</CUSTOMER_ID>
+  <NAME>PepsiCo</NAME>
+  <ADDRESS>10209 Yearling Dr, Rockville, MD</ADDRESS>
+  <WEBSITE>http://www.pepsico.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>137</CUSTOMER_ID>
+  <NAME>United Technologies</NAME>
+  <ADDRESS>3000 Greenmount Ave, Baltimore, MD</ADDRESS>
+  <WEBSITE>http://www.utc.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>139</CUSTOMER_ID>
+  <NAME>Lowe?s</NAME>
+  <ADDRESS>1262 Vocke Rd, Cumberland, MD</ADDRESS>
+  <WEBSITE>http://www.lowes.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>140</CUSTOMER_ID>
+  <NAME>UPS</NAME>
+  <ADDRESS>3314 Eastern Ave, Baltimore, MD</ADDRESS>
+  <WEBSITE>http://www.ups.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>142</CUSTOMER_ID>
+  <NAME>Prudential Financial</NAME>
+  <ADDRESS>11200 Scaggsville Rd, Laurel, MD</ADDRESS>
+  <WEBSITE>http://www.prudential.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>144</CUSTOMER_ID>
+  <NAME>Humana</NAME>
+  <ADDRESS>2300 Harford Rd, Baltimore, MD</ADDRESS>
+  <WEBSITE>http://www.humana.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>145</CUSTOMER_ID>
+  <NAME>Disney</NAME>
+  <ADDRESS>2 2Nd St # A, Ocean City, MD</ADDRESS>
+  <WEBSITE>http://www.disney.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>146</CUSTOMER_ID>
+  <NAME>Cisco Systems</NAME>
+  <ADDRESS>6917 W Oklahoma Ave, Milwaukee, WI</ADDRESS>
+  <WEBSITE>http://www.cisco.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>148</CUSTOMER_ID>
+  <NAME>Dow Chemical</NAME>
+  <ADDRESS>160 Glenwood Ave, Minneapolis, MN</ADDRESS>
+  <WEBSITE>http://www.dow.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>149</CUSTOMER_ID>
+  <NAME>Sysco</NAME>
+  <ADDRESS>6915 Grand Ave, Hammond, IN</ADDRESS>
+  <WEBSITE>http://www.sysco.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>151</CUSTOMER_ID>
+  <NAME>Caterpillar</NAME>
+  <ADDRESS>65 Cadillac Sq # 2701, Detroit, MI</ADDRESS>
+  <WEBSITE>http://www.caterpillar.com</WEBSITE>
+  <CREDIT_LIMIT>2500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>152</CUSTOMER_ID>
+  <NAME>Lockheed Martin</NAME>
+  <ADDRESS>3435 Tuscany Dr Se, Grand Rapids, MI</ADDRESS>
+  <WEBSITE>http://www.lockheedmartin.com</WEBSITE>
+  <CREDIT_LIMIT>2500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>155</CUSTOMER_ID>
+  <NAME>Coca-Cola</NAME>
+  <ADDRESS>810 1St Ave, Council Bluffs, IA</ADDRESS>
+  <WEBSITE>http://www.coca-colacompany.com</WEBSITE>
+  <CREDIT_LIMIT>3500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>156</CUSTOMER_ID>
+  <NAME>HCA Holdings</NAME>
+  <ADDRESS>500 W Oklahoma Ave, Milwaukee, WI</ADDRESS>
+  <WEBSITE>http://www.hcahealthcare.com</WEBSITE>
+  <CREDIT_LIMIT>3500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>159</CUSTOMER_ID>
+  <NAME>Energy Transfer Equity</NAME>
+  <ADDRESS>1721 E Lake St, Minneapolis, MN</ADDRESS>
+  <WEBSITE>http://www.energytransfer.com</WEBSITE>
+  <CREDIT_LIMIT>3600</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>160</CUSTOMER_ID>
+  <NAME>Tyson Foods</NAME>
+  <ADDRESS>255 Great Arrow Ave, Buffalo, NY</ADDRESS>
+  <WEBSITE>http://www.tysonfoods.com</WEBSITE>
+  <CREDIT_LIMIT>3600</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>162</CUSTOMER_ID>
+  <NAME>Delta Air Lines</NAME>
+  <ADDRESS>6640 Campbell Blvd, Lockport, NY</ADDRESS>
+  <WEBSITE>http://www.delta.com</WEBSITE>
+  <CREDIT_LIMIT>3600</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>164</CUSTOMER_ID>
+  <NAME>Nationwide</NAME>
+  <ADDRESS>1136 Arch St, Philadelphia, PA</ADDRESS>
+  <WEBSITE>http://www.nationwide.com</WEBSITE>
+  <CREDIT_LIMIT>3600</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>166</CUSTOMER_ID>
+  <NAME>Best Buy</NAME>
+  <ADDRESS>Rt 6 E, Warren, PA</ADDRESS>
+  <WEBSITE>http://www.bestbuy.com</WEBSITE>
+  <CREDIT_LIMIT>3700</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>167</CUSTOMER_ID>
+  <NAME>Merck</NAME>
+  <ADDRESS>1924 Bedford St, Cumberland, MD</ADDRESS>
+  <WEBSITE>http://www.merck.com</WEBSITE>
+  <CREDIT_LIMIT>3700</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>169</CUSTOMER_ID>
+  <NAME>Liberty Mutual Insurance Group</NAME>
+  <ADDRESS>2713 N Bendix Dr, South Bend, IN</ADDRESS>
+  <WEBSITE>http://www.libertymutual.com</WEBSITE>
+  <CREDIT_LIMIT>3700</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>171</CUSTOMER_ID>
+  <NAME>Honeywell International</NAME>
+  <ADDRESS>752 W Huron St, Pontiac, MI</ADDRESS>
+  <WEBSITE>http://www.honeywell.com</WEBSITE>
+  <CREDIT_LIMIT>3700</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>173</CUSTOMER_ID>
+  <NAME>Massachusetts Mutual Life Insurance</NAME>
+  <ADDRESS>1330 N Memorial Dr, Racine, WI</ADDRESS>
+  <WEBSITE>http://www.massmutual.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>175</CUSTOMER_ID>
+  <NAME>Morgan Stanley</NAME>
+  <ADDRESS>8 Automation Ln, Albany, NY</ADDRESS>
+  <WEBSITE>http://www.morganstanley.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>176</CUSTOMER_ID>
+  <NAME>Cigna</NAME>
+  <ADDRESS>811 N Brandywine Ave, Schenectady, NY</ADDRESS>
+  <WEBSITE>http://www.cigna.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>178</CUSTOMER_ID>
+  <NAME>Allstate</NAME>
+  <ADDRESS>3025 Sussex Ave, Pittsburgh, PA</ADDRESS>
+  <WEBSITE>http://www.allstate.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>179</CUSTOMER_ID>
+  <NAME>TIAA</NAME>
+  <ADDRESS>932 High St, Lancaster, PA</ADDRESS>
+  <WEBSITE>http://www.tiaa.org</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>181</CUSTOMER_ID>
+  <NAME>CHS</NAME>
+  <ADDRESS>6959 Tulip St, Philadelphia, PA</ADDRESS>
+  <WEBSITE>http://www.chsinc.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>182</CUSTOMER_ID>
+  <NAME>American Express</NAME>
+  <ADDRESS>511 S Central Ave # A, Baltimore, MD</ADDRESS>
+  <WEBSITE>http://www.americanexpress.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>183</CUSTOMER_ID>
+  <NAME>Gilead Sciences</NAME>
+  <ADDRESS>400 E Joppa Rd, Baltimore, MD</ADDRESS>
+  <WEBSITE>http://www.gilead.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>185</CUSTOMER_ID>
+  <NAME>General Dynamics</NAME>
+  <ADDRESS>1796 Tsing Tao, Muang Nonthaburi, </ADDRESS>
+  <WEBSITE>http://www.generaldynamics.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>186</CUSTOMER_ID>
+  <NAME>TJX</NAME>
+  <ADDRESS>1810 Tucker Crt, Mumbai, </ADDRESS>
+  <WEBSITE>http://www.tjx.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>188</CUSTOMER_ID>
+  <NAME>Nike</NAME>
+  <ADDRESS>Sendlinger Tor 4, Munich, </ADDRESS>
+  <WEBSITE>http://www.nike.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>189</CUSTOMER_ID>
+  <NAME>World Fuel Services</NAME>
+  <ADDRESS>Theresienstr 15, Munich, </ADDRESS>
+  <WEBSITE>http://www.wfscorp.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>191</CUSTOMER_ID>
+  <NAME>Mondelez International</NAME>
+  <ADDRESS>1822 Ironweed St, Toronto, ONT</ADDRESS>
+  <WEBSITE>http://www.mondelezinternational.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>193</CUSTOMER_ID>
+  <NAME>Twenty-First Century Fox</NAME>
+  <ADDRESS>Via Notoriosa 1932 Rd, Firenze, </ADDRESS>
+  <WEBSITE>http://www.21cf.com</WEBSITE>
+  <CREDIT_LIMIT>500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>194</CUSTOMER_ID>
+  <NAME>Deere</NAME>
+  <ADDRESS>Via Notoriosa 1941, Firenze, </ADDRESS>
+  <WEBSITE>http://www.johndeere.com</WEBSITE>
+  <CREDIT_LIMIT>500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>209</CUSTOMER_ID>
+  <NAME>Time Warner</NAME>
+  <ADDRESS>Via Delle Grazie 11, Tellaro, </ADDRESS>
+  <WEBSITE>http://www.timewarner.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>196</CUSTOMER_ID>
+  <NAME>DuPont</NAME>
+  <ADDRESS>Via Notoriosa 1943, Firenze, </ADDRESS>
+  <WEBSITE>http://www.dupont.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>197</CUSTOMER_ID>
+  <NAME>Avnet</NAME>
+  <ADDRESS>Via Luminosa 162, Tellaro, </ADDRESS>
+  <WEBSITE>http://www.avnet.com</WEBSITE>
+  <CREDIT_LIMIT>700</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>199</CUSTOMER_ID>
+  <NAME>Macy?s</NAME>
+  <ADDRESS>Via Di Firenze 231, Tellaro, </ADDRESS>
+  <WEBSITE>http://www.macysinc.com</WEBSITE>
+  <CREDIT_LIMIT>700</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>201</CUSTOMER_ID>
+  <NAME>Travelers Cos.</NAME>
+  <ADDRESS>Via Frenzy 6903, Tellaro, </ADDRESS>
+  <WEBSITE>http://www.travelers.com</WEBSITE>
+  <CREDIT_LIMIT>3600</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>203</CUSTOMER_ID>
+  <NAME>Philip Morris International</NAME>
+  <ADDRESS>Piazza Quattre Stagioni 4, San Giminiano, </ADDRESS>
+  <WEBSITE>http://www.pmi.com</WEBSITE>
+  <CREDIT_LIMIT>3600</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>205</CUSTOMER_ID>
+  <NAME>Tech Data</NAME>
+  <ADDRESS>Via Notoriosa 1932, Tellaro, </ADDRESS>
+  <WEBSITE>http://www.techdata.com</WEBSITE>
+  <CREDIT_LIMIT>3600</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>211</CUSTOMER_ID>
+  <NAME>McDonald?s</NAME>
+  <ADDRESS>2034 Sabrina Rd, Samutprakarn, </ADDRESS>
+  <WEBSITE>http://www.aboutmcdonalds.com</WEBSITE>
+  <CREDIT_LIMIT>3700</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>213</CUSTOMER_ID>
+  <NAME>Sears Holdings</NAME>
+  <ADDRESS>Ruella Delle Spiriti, Milano, </ADDRESS>
+  <WEBSITE>http://www.searsholdings.com</WEBSITE>
+  <CREDIT_LIMIT>500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>215</CUSTOMER_ID>
+  <NAME>Capital One Financial</NAME>
+  <ADDRESS>Via Delle Capeletti 52, San Giminiano, </ADDRESS>
+  <WEBSITE>http://www.capitalone.com</WEBSITE>
+  <CREDIT_LIMIT>1500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>217</CUSTOMER_ID>
+  <NAME>USAA</NAME>
+  <ADDRESS>Via Delli Capelli 2, San Giminiano, </ADDRESS>
+  <WEBSITE>http://www.usaa.com</WEBSITE>
+  <CREDIT_LIMIT>700</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>219</CUSTOMER_ID>
+  <NAME>Duke Energy</NAME>
+  <ADDRESS>1593 Silverado St, Bangalore, Kar</ADDRESS>
+  <WEBSITE>http://www.duke-energy.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>221</CUSTOMER_ID>
+  <NAME>Halliburton</NAME>
+  <ADDRESS>1602 Sholay St, Chennai, Tam</ADDRESS>
+  <WEBSITE>http://www.halliburton.com</WEBSITE>
+  <CREDIT_LIMIT>1500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>224</CUSTOMER_ID>
+  <NAME>Arrow Electronics</NAME>
+  <ADDRESS>1607 Sangam Blvd, New Delhi, </ADDRESS>
+  <WEBSITE>http://www.arrow.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>1</CUSTOMER_ID>
+  <NAME>Raytheon</NAME>
+  <ADDRESS>514 W Superior St, Kokomo, IN</ADDRESS>
+  <WEBSITE>http://www.raytheon.com</WEBSITE>
+  <CREDIT_LIMIT>100</CREDIT_LIMIT>
+  <ORDERS>4</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>2</CUSTOMER_ID>
+  <NAME>Plains GP Holdings</NAME>
+  <ADDRESS>2515 Bloyd Ave, Indianapolis, IN</ADDRESS>
+  <WEBSITE>http://www.plainsallamerican.com</WEBSITE>
+  <CREDIT_LIMIT>100</CREDIT_LIMIT>
+  <ORDERS>4</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>3</CUSTOMER_ID>
+  <NAME>US Foods Holding</NAME>
+  <ADDRESS>8768 N State Rd 37, Bloomington, IN</ADDRESS>
+  <WEBSITE>http://www.usfoods.com</WEBSITE>
+  <CREDIT_LIMIT>100</CREDIT_LIMIT>
+  <ORDERS>4</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>4</CUSTOMER_ID>
+  <NAME>AbbVie</NAME>
+  <ADDRESS>6445 Bay Harbor Ln, Indianapolis, IN</ADDRESS>
+  <WEBSITE>http://www.abbvie.com</WEBSITE>
+  <CREDIT_LIMIT>100</CREDIT_LIMIT>
+  <ORDERS>4</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>5</CUSTOMER_ID>
+  <NAME>Centene</NAME>
+  <ADDRESS>4019 W 3Rd St, Bloomington, IN</ADDRESS>
+  <WEBSITE>http://www.centene.com</WEBSITE>
+  <CREDIT_LIMIT>100</CREDIT_LIMIT>
+  <ORDERS>4</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>6</CUSTOMER_ID>
+  <NAME>Community Health Systems</NAME>
+  <ADDRESS>1608 Portage Ave, South Bend, IN</ADDRESS>
+  <WEBSITE>http://www.chs.net</WEBSITE>
+  <CREDIT_LIMIT>100</CREDIT_LIMIT>
+  <ORDERS>4</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>7</CUSTOMER_ID>
+  <NAME>Alcoa</NAME>
+  <ADDRESS>23943 Us Highway 33, Elkhart, IN</ADDRESS>
+  <WEBSITE>http://www.alcoa.com</WEBSITE>
+  <CREDIT_LIMIT>100</CREDIT_LIMIT>
+  <ORDERS>4</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>8</CUSTOMER_ID>
+  <NAME>International Paper</NAME>
+  <ADDRESS>136 E Market St # 800, Indianapolis, IN</ADDRESS>
+  <WEBSITE>http://www.internationalpaper.com</WEBSITE>
+  <CREDIT_LIMIT>100</CREDIT_LIMIT>
+  <ORDERS>4</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>9</CUSTOMER_ID>
+  <NAME>Emerson Electric</NAME>
+  <ADDRESS>1905 College St, South Bend, IN</ADDRESS>
+  <WEBSITE>http://www.emerson.com</WEBSITE>
+  <CREDIT_LIMIT>100</CREDIT_LIMIT>
+  <ORDERS>4</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>10</CUSTOMER_ID>
+  <NAME>Union Pacific</NAME>
+  <ADDRESS>3512 Rockville Rd # 137C, Indianapolis, IN</ADDRESS>
+  <WEBSITE>http://www.up.com</WEBSITE>
+  <CREDIT_LIMIT>200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>11</CUSTOMER_ID>
+  <NAME>Amgen</NAME>
+  <ADDRESS>1303 E University St, Bloomington, IN</ADDRESS>
+  <WEBSITE>http://www.amgen.com</WEBSITE>
+  <CREDIT_LIMIT>200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>12</CUSTOMER_ID>
+  <NAME>U.S. Bancorp</NAME>
+  <ADDRESS>115 N Weinbach Ave, Evansville, IN</ADDRESS>
+  <WEBSITE>http://www.usbank.com</WEBSITE>
+  <CREDIT_LIMIT>200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>13</CUSTOMER_ID>
+  <NAME>Staples</NAME>
+  <ADDRESS>2067 Rollett Ln, Evansville, IN</ADDRESS>
+  <WEBSITE>http://www.staples.com</WEBSITE>
+  <CREDIT_LIMIT>200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>14</CUSTOMER_ID>
+  <NAME>Danaher</NAME>
+  <ADDRESS>1105 E Allendale Dr, Bloomington, IN</ADDRESS>
+  <WEBSITE>http://www.danaher.com</WEBSITE>
+  <CREDIT_LIMIT>200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>15</CUSTOMER_ID>
+  <NAME>Whirlpool</NAME>
+  <ADDRESS>18305 Van Dyke St, Detroit, MI</ADDRESS>
+  <WEBSITE>http://www.whirlpoolcorp.com</WEBSITE>
+  <CREDIT_LIMIT>200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>16</CUSTOMER_ID>
+  <NAME>Aflac</NAME>
+  <ADDRESS>Lucas Dr Bldg 348, Detroit, MI</ADDRESS>
+  <WEBSITE>http://www.aflac.com</WEBSITE>
+  <CREDIT_LIMIT>200</CREDIT_LIMIT>
+  <ORDERS>4</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>17</CUSTOMER_ID>
+  <NAME>AutoNation</NAME>
+  <ADDRESS>1801 Monroe Ave Nw, Grand Rapids, MI</ADDRESS>
+  <WEBSITE>http://www.autonation.com</WEBSITE>
+  <CREDIT_LIMIT>200</CREDIT_LIMIT>
+  <ORDERS>4</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>18</CUSTOMER_ID>
+  <NAME>Progressive</NAME>
+  <ADDRESS>4925 Kendrick St Se, Grand Rapids, MI</ADDRESS>
+  <WEBSITE>http://www.progressive.com</WEBSITE>
+  <CREDIT_LIMIT>200</CREDIT_LIMIT>
+  <ORDERS>2</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>19</CUSTOMER_ID>
+  <NAME>Abbott Laboratories</NAME>
+  <ADDRESS>3310 Dixie Ct, Saginaw, MI</ADDRESS>
+  <WEBSITE>http://www.abbott.com</WEBSITE>
+  <CREDIT_LIMIT>200</CREDIT_LIMIT>
+  <ORDERS>1</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>20</CUSTOMER_ID>
+  <NAME>Dollar General</NAME>
+  <ADDRESS>113 Washington Sq N, Lansing, MI</ADDRESS>
+  <WEBSITE>http://www.dollargeneral.com</WEBSITE>
+  <CREDIT_LIMIT>200</CREDIT_LIMIT>
+  <ORDERS>1</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>21</CUSTOMER_ID>
+  <NAME>Tenet Healthcare</NAME>
+  <ADDRESS>2500 S Pennsylvania Ave, Lansing, MI</ADDRESS>
+  <WEBSITE>http://www.tenethealth.com</WEBSITE>
+  <CREDIT_LIMIT>200</CREDIT_LIMIT>
+  <ORDERS>1</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>22</CUSTOMER_ID>
+  <NAME>Eli Lilly</NAME>
+  <ADDRESS>3213 S Cedar St, Lansing, MI</ADDRESS>
+  <WEBSITE>http://www.lilly.com</WEBSITE>
+  <CREDIT_LIMIT>200</CREDIT_LIMIT>
+  <ORDERS>1</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>24</CUSTOMER_ID>
+  <NAME>Southwest Airlines</NAME>
+  <ADDRESS>6654 W Lafayette St, Detroit, MI</ADDRESS>
+  <WEBSITE>http://www.southwest.com</WEBSITE>
+  <CREDIT_LIMIT>200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>25</CUSTOMER_ID>
+  <NAME>Penske Automotive Group</NAME>
+  <ADDRESS>27 Benton Rd, Saginaw, MI</ADDRESS>
+  <WEBSITE>http://www.penskeautomotive.com</WEBSITE>
+  <CREDIT_LIMIT>200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>26</CUSTOMER_ID>
+  <NAME>ManpowerGroup</NAME>
+  <ADDRESS>8201 Livernois Ave, Detroit, MI</ADDRESS>
+  <WEBSITE>http://www.manpowergroup.com</WEBSITE>
+  <CREDIT_LIMIT>300</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>28</CUSTOMER_ID>
+  <NAME>Kohl?s</NAME>
+  <ADDRESS>3100 E Eisenhower Pky # 100, Ann Arbor, MI</ADDRESS>
+  <WEBSITE>http://www.kohlscorporation.com</WEBSITE>
+  <CREDIT_LIMIT>300</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>29</CUSTOMER_ID>
+  <NAME>Starbucks</NAME>
+  <ADDRESS>952 Vassar Dr, Kalamazoo, MI</ADDRESS>
+  <WEBSITE>http://www.starbucks.com</WEBSITE>
+  <CREDIT_LIMIT>400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>30</CUSTOMER_ID>
+  <NAME>Paccar</NAME>
+  <ADDRESS>150 W Jefferson Ave # 2500, Detroit, MI</ADDRESS>
+  <WEBSITE>http://www.paccar.com</WEBSITE>
+  <CREDIT_LIMIT>400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>31</CUSTOMER_ID>
+  <NAME>Cummins</NAME>
+  <ADDRESS>40 Pearl St Nw # 1020, Grand Rapids, MI</ADDRESS>
+  <WEBSITE>http://www.cummins.com</WEBSITE>
+  <CREDIT_LIMIT>400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>33</CUSTOMER_ID>
+  <NAME>Altria Group</NAME>
+  <ADDRESS>301 E Genesee Ave, Saginaw, MI</ADDRESS>
+  <WEBSITE>http://www.altria.com</WEBSITE>
+  <CREDIT_LIMIT>400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>34</CUSTOMER_ID>
+  <NAME>Xerox</NAME>
+  <ADDRESS>9936 Dexter Ave, Detroit, MI</ADDRESS>
+  <WEBSITE>http://www.xerox.com</WEBSITE>
+  <CREDIT_LIMIT>400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>35</CUSTOMER_ID>
+  <NAME>Kimberly-Clark</NAME>
+  <ADDRESS>1660 University Ter, Ann Arbor, MI</ADDRESS>
+  <WEBSITE>http://www.kimberly-clark.com</WEBSITE>
+  <CREDIT_LIMIT>400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>36</CUSTOMER_ID>
+  <NAME>Hartford Financial Services Group</NAME>
+  <ADDRESS>15713 N East St, Lansing, MI</ADDRESS>
+  <WEBSITE>http://www.thehartford.com</WEBSITE>
+  <CREDIT_LIMIT>400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>38</CUSTOMER_ID>
+  <NAME>Kraft Heinz</NAME>
+  <ADDRESS>10315 Hickman Rd, Des Moines, IA</ADDRESS>
+  <WEBSITE>http://www.kraftheinzcompany.com</WEBSITE>
+  <CREDIT_LIMIT>500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>40</CUSTOMER_ID>
+  <NAME>Fluor</NAME>
+  <ADDRESS>1928 Sherwood Dr, Council Bluffs, IA</ADDRESS>
+  <WEBSITE>http://www.fluor.com</WEBSITE>
+  <CREDIT_LIMIT>500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>41</CUSTOMER_ID>
+  <NAME>AECOM</NAME>
+  <ADDRESS>2102 E Kimberly Rd, Davenport, IA</ADDRESS>
+  <WEBSITE>http://www.aecom.com</WEBSITE>
+  <CREDIT_LIMIT>500</CREDIT_LIMIT>
+  <ORDERS>1</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>44</CUSTOMER_ID>
+  <NAME>Jabil Circuit</NAME>
+  <ADDRESS>221 3Rd Ave Se # 300, Cedar Rapids, IA</ADDRESS>
+  <WEBSITE>http://www.jabil.com</WEBSITE>
+  <CREDIT_LIMIT>500</CREDIT_LIMIT>
+  <ORDERS>5</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>45</CUSTOMER_ID>
+  <NAME>CenturyLink</NAME>
+  <ADDRESS>2120 Heights Dr, Eau Claire, WI</ADDRESS>
+  <WEBSITE>http://www.centurylink.com</WEBSITE>
+  <CREDIT_LIMIT>500</CREDIT_LIMIT>
+  <ORDERS>5</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>47</CUSTOMER_ID>
+  <NAME>General Mills</NAME>
+  <ADDRESS>6555 W Good Hope Rd, Milwaukee, WI</ADDRESS>
+  <WEBSITE>http://www.generalmills.com</WEBSITE>
+  <CREDIT_LIMIT>600</CREDIT_LIMIT>
+  <ORDERS>5</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>48</CUSTOMER_ID>
+  <NAME>Southern</NAME>
+  <ADDRESS>1314 N Stoughton Rd, Madison, WI</ADDRESS>
+  <WEBSITE>http://www.southerncompany.com</WEBSITE>
+  <CREDIT_LIMIT>600</CREDIT_LIMIT>
+  <ORDERS>5</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>50</CUSTOMER_ID>
+  <NAME>Thermo Fisher Scientific</NAME>
+  <ADDRESS>6161 N 64Th St, Milwaukee, WI</ADDRESS>
+  <WEBSITE>http://www.thermofisher.com</WEBSITE>
+  <CREDIT_LIMIT>700</CREDIT_LIMIT>
+  <ORDERS>1</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>51</CUSTOMER_ID>
+  <NAME>American Electric Power</NAME>
+  <ADDRESS>11016 W Lincoln Ave, Milwaukee, WI</ADDRESS>
+  <WEBSITE>http://www.aep.com</WEBSITE>
+  <CREDIT_LIMIT>700</CREDIT_LIMIT>
+  <ORDERS>1</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>53</CUSTOMER_ID>
+  <NAME>NGL Energy Partners</NAME>
+  <ADDRESS>615 N Sherman Ave, Madison, WI</ADDRESS>
+  <WEBSITE>http://www.nglenergypartners.com</WEBSITE>
+  <CREDIT_LIMIT>700</CREDIT_LIMIT>
+  <ORDERS>1</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>54</CUSTOMER_ID>
+  <NAME>Bristol-Myers Squibb</NAME>
+  <ADDRESS>512 E Grand Ave, Beloit, WI</ADDRESS>
+  <WEBSITE>http://www.bms.com</WEBSITE>
+  <CREDIT_LIMIT>700</CREDIT_LIMIT>
+  <ORDERS>1</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>56</CUSTOMER_ID>
+  <NAME>Nucor</NAME>
+  <ADDRESS>5235 N Ironwood Ln, Milwaukee, WI</ADDRESS>
+  <WEBSITE>http://www.nucor.com</WEBSITE>
+  <CREDIT_LIMIT>700</CREDIT_LIMIT>
+  <ORDERS>1</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>57</CUSTOMER_ID>
+  <NAME>PNC Financial Services Group</NAME>
+  <ADDRESS>322 E Michigan St, Milwaukee, WI</ADDRESS>
+  <WEBSITE>http://www.pnc.com</WEBSITE>
+  <CREDIT_LIMIT>700</CREDIT_LIMIT>
+  <ORDERS>1</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>58</CUSTOMER_ID>
+  <NAME>Health Net</NAME>
+  <ADDRESS>1400 Bellinger St Fl 4, Eau Claire, WI</ADDRESS>
+  <WEBSITE>http://www.healthnet.com</WEBSITE>
+  <CREDIT_LIMIT>700</CREDIT_LIMIT>
+  <ORDERS>1</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>60</CUSTOMER_ID>
+  <NAME>Colgate-Palmolive</NAME>
+  <ADDRESS>808 3Rd St # 100, Wausau, WI</ADDRESS>
+  <WEBSITE>http://www.colgatepalmolive.com</WEBSITE>
+  <CREDIT_LIMIT>700</CREDIT_LIMIT>
+  <ORDERS>1</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>61</CUSTOMER_ID>
+  <NAME>Freeport-McMoRan</NAME>
+  <ADDRESS>300 Crooks St, Green Bay, WI</ADDRESS>
+  <WEBSITE>http://www.fcx.com</WEBSITE>
+  <CREDIT_LIMIT>900</CREDIT_LIMIT>
+  <ORDERS>1</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>64</CUSTOMER_ID>
+  <NAME>Gap</NAME>
+  <ADDRESS>2122 Campbell Rd, La Crosse, WI</ADDRESS>
+  <WEBSITE>http://www.gapinc.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>1</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>65</CUSTOMER_ID>
+  <NAME>Baker Hughes</NAME>
+  <ADDRESS>3324 N Oakland Ave, Milwaukee, WI</ADDRESS>
+  <WEBSITE>http://www.bakerhughes.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>1</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>67</CUSTOMER_ID>
+  <NAME>Dollar Tree</NAME>
+  <ADDRESS>1501 Lowry Ave N, Minneapolis, MN</ADDRESS>
+  <WEBSITE>http://www.dollartree.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>1</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>69</CUSTOMER_ID>
+  <NAME>Whole Foods Market</NAME>
+  <ADDRESS>4200 Yosemite Ave S, Minneapolis, MN</ADDRESS>
+  <WEBSITE>http://www.wholefoodsmarket.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>1</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>70</CUSTOMER_ID>
+  <NAME>PPG Industries</NAME>
+  <ADDRESS>2800 Chicago Ave # 100, Minneapolis, MN</ADDRESS>
+  <WEBSITE>http://www.ppg.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>1</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>72</CUSTOMER_ID>
+  <NAME>Icahn Enterprises</NAME>
+  <ADDRESS>314 W Superior St # 1015, Duluth, MN</ADDRESS>
+  <WEBSITE>http://www.ielp.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>74</CUSTOMER_ID>
+  <NAME>Performance Food Group</NAME>
+  <ADDRESS>2720 Brewerton Rd, Syracuse, NY</ADDRESS>
+  <WEBSITE>http://www.pfgc.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>76</CUSTOMER_ID>
+  <NAME>DISH Network</NAME>
+  <ADDRESS>1522 Main St, Niagara Falls, NY</ADDRESS>
+  <WEBSITE>http://www.dish.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>77</CUSTOMER_ID>
+  <NAME>FirstEnergy</NAME>
+  <ADDRESS>49 N Pine Ave, Albany, NY</ADDRESS>
+  <WEBSITE>http://www.firstenergycorp.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>80</CUSTOMER_ID>
+  <NAME>AES</NAME>
+  <ADDRESS>33 Fulton St, Poughkeepsie, NY</ADDRESS>
+  <WEBSITE>http://www.aes.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>81</CUSTOMER_ID>
+  <NAME>CarMax</NAME>
+  <ADDRESS>2360 Maxon Rd, Schenectady, NY</ADDRESS>
+  <WEBSITE>http://www.carmax.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>84</CUSTOMER_ID>
+  <NAME>NRG Energy</NAME>
+  <ADDRESS>500 S Salina St # 500, Syracuse, NY</ADDRESS>
+  <WEBSITE>http://www.nrgenergy.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>85</CUSTOMER_ID>
+  <NAME>Western Digital</NAME>
+  <ADDRESS>33 Pine St, Lockport, NY</ADDRESS>
+  <WEBSITE>http://www.westerndigital.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>226</CUSTOMER_ID>
+  <NAME>Office Depot</NAME>
+  <ADDRESS>1612 Talaivar St, Chennai, Tam</ADDRESS>
+  <WEBSITE>http://www.officedepot.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>227</CUSTOMER_ID>
+  <NAME>Nordstrom</NAME>
+  <ADDRESS>1613 Victoria St, Calcutta, </ADDRESS>
+  <WEBSITE>http://www.nordstrom.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>229</CUSTOMER_ID>
+  <NAME>Aramark</NAME>
+  <ADDRESS>1615 Crackers Crt, Chennai - India, </ADDRESS>
+  <WEBSITE>http://www.aramark.com</WEBSITE>
+  <CREDIT_LIMIT>300</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>230</CUSTOMER_ID>
+  <NAME>DaVita HealthCare Partners</NAME>
+  <ADDRESS>1616 Mr. India Ln, Bombay - India, Kar</ADDRESS>
+  <WEBSITE>http://www.davita.com</WEBSITE>
+  <CREDIT_LIMIT>300</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>232</CUSTOMER_ID>
+  <NAME>WellCare Health Plans</NAME>
+  <ADDRESS>1618 Villains St, New Delhi - India, </ADDRESS>
+  <WEBSITE>http://www.wellcare.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>233</CUSTOMER_ID>
+  <NAME>CBS</NAME>
+  <ADDRESS>1619 Bowlers Rd, Chandigarh, Har</ADDRESS>
+  <WEBSITE>http://www.cbscorporation.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>234</CUSTOMER_ID>
+  <NAME>Visa</NAME>
+  <ADDRESS>1620 Sixers Crt, Bombay, Kar</ADDRESS>
+  <WEBSITE>http://www.visa.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>236</CUSTOMER_ID>
+  <NAME>Ecolab</NAME>
+  <ADDRESS>1623 Hey Ram St, Chennai - India, </ADDRESS>
+  <WEBSITE>http://www.ecolab.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>237</CUSTOMER_ID>
+  <NAME>Kellogg</NAME>
+  <ADDRESS>1627 Sowdagar St, New Delhi, </ADDRESS>
+  <WEBSITE>http://www.kelloggcompany.com</WEBSITE>
+  <CREDIT_LIMIT>1900</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>239</CUSTOMER_ID>
+  <NAME>Textron</NAME>
+  <ADDRESS>1632 Splash St, Chandigarh, Har</ADDRESS>
+  <WEBSITE>http://www.textron.com</WEBSITE>
+  <CREDIT_LIMIT>2500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>240</CUSTOMER_ID>
+  <NAME>Loews</NAME>
+  <ADDRESS>1636 Pretty Blvd, Bangalore, Kar</ADDRESS>
+  <WEBSITE>http://www.loews.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>241</CUSTOMER_ID>
+  <NAME>Illinois Tool Works</NAME>
+  <ADDRESS>1646 Brazil Blvd, Chennai, Tam</ADDRESS>
+  <WEBSITE>http://www.itw.com</WEBSITE>
+  <CREDIT_LIMIT>500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>244</CUSTOMER_ID>
+  <NAME>Viacom</NAME>
+  <ADDRESS>1650 Teesri Manjil Crt, Kashmir, </ADDRESS>
+  <WEBSITE>http://www.viacom.com</WEBSITE>
+  <CREDIT_LIMIT>3700</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>246</CUSTOMER_ID>
+  <NAME>Land O?Lakes</NAME>
+  <ADDRESS>1662 Talaivar St, Chennai, Tam</ADDRESS>
+  <WEBSITE>http://www.landolakesinc.com</WEBSITE>
+  <CREDIT_LIMIT>1500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>248</CUSTOMER_ID>
+  <NAME>Devon Energy</NAME>
+  <ADDRESS>Piazza Del Congresso 22, Roma, </ADDRESS>
+  <WEBSITE>http://www.devonenergy.com</WEBSITE>
+  <CREDIT_LIMIT>3700</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>251</CUSTOMER_ID>
+  <NAME>Yum Brands</NAME>
+  <ADDRESS>Ruella Delle Spiriti, Roma, </ADDRESS>
+  <WEBSITE>http://www.yum.com</WEBSITE>
+  <CREDIT_LIMIT>500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>252</CUSTOMER_ID>
+  <NAME>Texas Instruments</NAME>
+  <ADDRESS>Via Del Disegno 194, Roma, </ADDRESS>
+  <WEBSITE>http://www.ti.com</WEBSITE>
+  <CREDIT_LIMIT>500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>253</CUSTOMER_ID>
+  <NAME>CDW</NAME>
+  <ADDRESS>Via Delle Capeletti 52, Roma, </ADDRESS>
+  <WEBSITE>http://www.cdw.com</WEBSITE>
+  <CREDIT_LIMIT>500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>256</CUSTOMER_ID>
+  <NAME>Marsh &amp; McLennan</NAME>
+  <ADDRESS>Via Dolorosa 69, Roma, </ADDRESS>
+  <WEBSITE>http://www.mmc.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>257</CUSTOMER_ID>
+  <NAME>Chesapeake Energy</NAME>
+  <ADDRESS>Via Notoriosa 1942, Ventimiglia, </ADDRESS>
+  <WEBSITE>http://www.chk.com</WEBSITE>
+  <CREDIT_LIMIT>700</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>260</CUSTOMER_ID>
+  <NAME>Occidental Petroleum</NAME>
+  <ADDRESS>Piazza Cacchiatore 23, Roma, </ADDRESS>
+  <WEBSITE>http://www.oxy.com</WEBSITE>
+  <CREDIT_LIMIT>700</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>261</CUSTOMER_ID>
+  <NAME>Guardian Life Ins. Co. of America</NAME>
+  <ADDRESS>Via Del Disegno 194, San Giminiano, </ADDRESS>
+  <WEBSITE>http://www.guardianlife.com</WEBSITE>
+  <CREDIT_LIMIT>600</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>264</CUSTOMER_ID>
+  <NAME>J.C. Penney</NAME>
+  <ADDRESS>Via Dello Croce 93, San Giminiano, </ADDRESS>
+  <WEBSITE>http://www.jcpenney.com</WEBSITE>
+  <CREDIT_LIMIT>400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>265</CUSTOMER_ID>
+  <NAME>Consolidated Edison</NAME>
+  <ADDRESS>Ruella Delle Spiriti, San Giminiano, </ADDRESS>
+  <WEBSITE>http://www.conedison.com</WEBSITE>
+  <CREDIT_LIMIT>400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>267</CUSTOMER_ID>
+  <NAME>Cognizant Technology Solutions</NAME>
+  <ADDRESS>Via Delli Capelli 2, Tellaro, </ADDRESS>
+  <WEBSITE>http://www.cognizant.com</WEBSITE>
+  <CREDIT_LIMIT>400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>269</CUSTOMER_ID>
+  <NAME>Ameriprise Financial</NAME>
+  <ADDRESS>Harmoniegasse 3, Baden-Daettwil, AG</ADDRESS>
+  <WEBSITE>http://www.ameriprise.com</WEBSITE>
+  <CREDIT_LIMIT>500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>271</CUSTOMER_ID>
+  <NAME>Computer Sciences</NAME>
+  <ADDRESS>Alfred E. Neumann-Weg 3, Baden-Daettwil, AG</ADDRESS>
+  <WEBSITE>http://www.csc.com</WEBSITE>
+  <CREDIT_LIMIT>500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>272</CUSTOMER_ID>
+  <NAME>L Brands</NAME>
+  <ADDRESS>Dr. Herbert Bitto Str 23, Baden-Daettwil, AG</ADDRESS>
+  <WEBSITE>http://www.lb.com</WEBSITE>
+  <CREDIT_LIMIT>2300</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>273</CUSTOMER_ID>
+  <NAME>Jacobs Engineering Group</NAME>
+  <ADDRESS>Taefernstr 4, Baden-Daettwil, AG</ADDRESS>
+  <WEBSITE>http://www.jacobs.com</WEBSITE>
+  <CREDIT_LIMIT>2300</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>275</CUSTOMER_ID>
+  <NAME>Principal Financial</NAME>
+  <ADDRESS>Helebardenweg 5, Baden-Daettwil, AG</ADDRESS>
+  <WEBSITE>http://www.principal.com</WEBSITE>
+  <CREDIT_LIMIT>3500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>276</CUSTOMER_ID>
+  <NAME>Ross Stores</NAME>
+  <ADDRESS>Zum Freundlichen Nachbarn 5, Baden-Daettwil, AG</ADDRESS>
+  <WEBSITE>http://www.rossstores.com</WEBSITE>
+  <CREDIT_LIMIT>3500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>277</CUSTOMER_ID>
+  <NAME>Bed Bath &amp; Beyond</NAME>
+  <ADDRESS>Ziegenwiese 3, Baden-Daettwil, AG</ADDRESS>
+  <WEBSITE>http://www.bedbathandbeyond.com</WEBSITE>
+  <CREDIT_LIMIT>3500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>278</CUSTOMER_ID>
+  <NAME>CSX</NAME>
+  <ADDRESS>Am Waldrand 5, Baden-Daettwil, AG</ADDRESS>
+  <WEBSITE>http://www.csx.com</WEBSITE>
+  <CREDIT_LIMIT>3500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>279</CUSTOMER_ID>
+  <NAME>Toys ?R? Us</NAME>
+  <ADDRESS>Zur Kantine 9, Baden-Daettwil, AG</ADDRESS>
+  <WEBSITE>http://www.toysrusinc.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>280</CUSTOMER_ID>
+  <NAME>Las Vegas Sands</NAME>
+  <ADDRESS>Grosse Bahnhostrasse 3, Baden-Daettwil, AG</ADDRESS>
+  <WEBSITE>http://www.sands.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>281</CUSTOMER_ID>
+  <NAME>Leucadia National</NAME>
+  <ADDRESS>Paradeplatz 4, Zuerich, ZH</ADDRESS>
+  <WEBSITE>http://www.leucadia.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>282</CUSTOMER_ID>
+  <NAME>Dominion Resources</NAME>
+  <ADDRESS>Badenerstr 1941, Zuerich, ZH</ADDRESS>
+  <WEBSITE>http://www.dom.com</WEBSITE>
+  <CREDIT_LIMIT>3500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>283</CUSTOMER_ID>
+  <NAME>United States Steel</NAME>
+  <ADDRESS>Welschdoerfchen 1941, Chur, ZH</ADDRESS>
+  <WEBSITE>http://www.ussteel.com</WEBSITE>
+  <CREDIT_LIMIT>3500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>284</CUSTOMER_ID>
+  <NAME>L-3 Communications</NAME>
+  <ADDRESS>Le Reduit, Tschiertschen, GR</ADDRESS>
+  <WEBSITE>http://www.l-3com.com</WEBSITE>
+  <CREDIT_LIMIT>1400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>285</CUSTOMER_ID>
+  <NAME>Edison International</NAME>
+  <ADDRESS>Bendlehn, Trogen, SG</ADDRESS>
+  <WEBSITE>http://www.edisoninvestor.com</WEBSITE>
+  <CREDIT_LIMIT>1400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>286</CUSTOMER_ID>
+  <NAME>Entergy</NAME>
+  <ADDRESS>Spisertor 3, St. Gallen, SG</ADDRESS>
+  <WEBSITE>http://www.entergy.com</WEBSITE>
+  <CREDIT_LIMIT>1400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>287</CUSTOMER_ID>
+  <NAME>ADP</NAME>
+  <ADDRESS>Langstr 14, Zuerich, ZH</ADDRESS>
+  <WEBSITE>http://www.adp.com</WEBSITE>
+  <CREDIT_LIMIT>700</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>288</CUSTOMER_ID>
+  <NAME>First Data</NAME>
+  <ADDRESS>Roessligasse 4, Zurich, ZH</ADDRESS>
+  <WEBSITE>http://www.firstdata.com</WEBSITE>
+  <CREDIT_LIMIT>700</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>289</CUSTOMER_ID>
+  <NAME>BlackRock</NAME>
+  <ADDRESS>Zum Froehlichen Schweizer 3, Zurich, ZH</ADDRESS>
+  <WEBSITE>http://www.blackrock.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>290</CUSTOMER_ID>
+  <NAME>WestRock</NAME>
+  <ADDRESS>Chrottenweg, Bern, BE</ADDRESS>
+  <WEBSITE>http://www.westrock.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>291</CUSTOMER_ID>
+  <NAME>Voya Financial</NAME>
+  <ADDRESS>Bruppacher Str 3, Baden-Daettwil, AG</ADDRESS>
+  <WEBSITE>http://www.voya.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>292</CUSTOMER_ID>
+  <NAME>Sherwin-Williams</NAME>
+  <ADDRESS>Limmatquai, Zuerich, ZH</ADDRESS>
+  <WEBSITE>http://www.sherwin.com</WEBSITE>
+  <CREDIT_LIMIT>1800</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>293</CUSTOMER_ID>
+  <NAME>Hilton Worldwide Holdings</NAME>
+  <ADDRESS>Dreikoenigsstr 3, Zurich, ZH</ADDRESS>
+  <WEBSITE>http://www.hiltonworldwide.com</WEBSITE>
+  <CREDIT_LIMIT>1800</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>295</CUSTOMER_ID>
+  <NAME>R.R. Donnelley &amp; Sons</NAME>
+  <ADDRESS>Kreuzstr 32, Zurich, ZH</ADDRESS>
+  <WEBSITE>http://www.rrdonnelley.com</WEBSITE>
+  <CREDIT_LIMIT>2300</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>296</CUSTOMER_ID>
+  <NAME>Stanley Black &amp; Decker</NAME>
+  <ADDRESS>1539 Stripes Rd, Baden-Daettwil, AG</ADDRESS>
+  <WEBSITE>http://www.stanleyblackanddecker.com</WEBSITE>
+  <CREDIT_LIMIT>2300</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>299</CUSTOMER_ID>
+  <NAME>Murphy USA</NAME>
+  <ADDRESS>1593 Silverado St, Bangalore, Kar</ADDRESS>
+  <WEBSITE>http://corporate.murphyusa.com</WEBSITE>
+  <CREDIT_LIMIT>1400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>300</CUSTOMER_ID>
+  <NAME>CBRE Group</NAME>
+  <ADDRESS>1596 Commando Blvd, Bangalore, Kar</ADDRESS>
+  <WEBSITE>http://www.cbre.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>302</CUSTOMER_ID>
+  <NAME>D.R. Horton</NAME>
+  <ADDRESS>1599 Legend Rd, Bangalore, Kar</ADDRESS>
+  <WEBSITE>http://www.drhorton.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>303</CUSTOMER_ID>
+  <NAME>Estee Lauder</NAME>
+  <ADDRESS>1600 Target Crt, Bangalore, Kar</ADDRESS>
+  <WEBSITE>http://www.elcompanies.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>304</CUSTOMER_ID>
+  <NAME>Praxair</NAME>
+  <ADDRESS>1603 Rebel St, Bangalore, Kar</ADDRESS>
+  <WEBSITE>http://www.praxair.com</WEBSITE>
+  <CREDIT_LIMIT>500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>305</CUSTOMER_ID>
+  <NAME>Biogen</NAME>
+  <ADDRESS>1604 Volunteers Rd, Bangalore, Kar</ADDRESS>
+  <WEBSITE>http://www.biogen.com</WEBSITE>
+  <CREDIT_LIMIT>500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>307</CUSTOMER_ID>
+  <NAME>State Street Corp.</NAME>
+  <ADDRESS>1607 Abwdrts St, Bangalore, Kar</ADDRESS>
+  <WEBSITE>http://www.statestreet.com</WEBSITE>
+  <CREDIT_LIMIT>3500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>308</CUSTOMER_ID>
+  <NAME>Unum Group</NAME>
+  <ADDRESS>1608 Amadeus St, Bangalore, Kar</ADDRESS>
+  <WEBSITE>http://www.unum.com</WEBSITE>
+  <CREDIT_LIMIT>3500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>309</CUSTOMER_ID>
+  <NAME>Reynolds American</NAME>
+  <ADDRESS>1610 Betrayal Crt, Bangalore, Kar</ADDRESS>
+  <WEBSITE>http://www.reynoldsamerican.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>311</CUSTOMER_ID>
+  <NAME>Group 1 Automotive</NAME>
+  <ADDRESS>1614 Crackers Rd, Bangalore - India, Kar</ADDRESS>
+  <WEBSITE>http://www.group1auto.com</WEBSITE>
+  <CREDIT_LIMIT>2300</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>312</CUSTOMER_ID>
+  <NAME>Henry Schein</NAME>
+  <ADDRESS>1615 Crackers Crt, Bangalore - India, Kar</ADDRESS>
+  <WEBSITE>http://www.henryschein.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>315</CUSTOMER_ID>
+  <NAME>Norfolk Southern</NAME>
+  <ADDRESS>1618 Footloose St, Bangalore - India, Kar</ADDRESS>
+  <WEBSITE>http://www.nscorp.com</WEBSITE>
+  <CREDIT_LIMIT>900</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>316</CUSTOMER_ID>
+  <NAME>Reinsurance Group of America</NAME>
+  <ADDRESS>1619 Footloose Rd, Bangalore - India, Kar</ADDRESS>
+  <WEBSITE>http://www.rgare.com</WEBSITE>
+  <CREDIT_LIMIT>900</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>317</CUSTOMER_ID>
+  <NAME>Public Service Enterprise Group</NAME>
+  <ADDRESS>1621 Gargon! Blvd, Bangalore - India, Kar</ADDRESS>
+  <WEBSITE>http://www.pseg.com</WEBSITE>
+  <CREDIT_LIMIT>600</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>23</CUSTOMER_ID>
+  <NAME>DTE Energy</NAME>
+  <ADDRESS>8110 Jackson Rd, Ann Arbor, MI</ADDRESS>
+  <WEBSITE>http://www.dteenergy.com</WEBSITE>
+  <CREDIT_LIMIT>200</CREDIT_LIMIT>
+  <ORDERS>1</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>27</CUSTOMER_ID>
+  <NAME>Assurant</NAME>
+  <ADDRESS>101 N Falahee Rd, Jackson, MI</ADDRESS>
+  <WEBSITE>http://www.assurant.com</WEBSITE>
+  <CREDIT_LIMIT>300</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>37</CUSTOMER_ID>
+  <NAME>Huntsman</NAME>
+  <ADDRESS>555 John F Kennedy Rd, Dubuque, IA</ADDRESS>
+  <WEBSITE>http://www.huntsman.com</WEBSITE>
+  <CREDIT_LIMIT>500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>42</CUSTOMER_ID>
+  <NAME>Becton Dickinson</NAME>
+  <ADDRESS>1691 Asbury Rd, Dubuque, IA</ADDRESS>
+  <WEBSITE>http://www.bd.com</WEBSITE>
+  <CREDIT_LIMIT>500</CREDIT_LIMIT>
+  <ORDERS>1</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>68</CUSTOMER_ID>
+  <NAME>AutoZone</NAME>
+  <ADDRESS>113 N 1St St, Minneapolis, MN</ADDRESS>
+  <WEBSITE>http://www.autozone.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>1</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>73</CUSTOMER_ID>
+  <NAME>Navistar International</NAME>
+  <ADDRESS>1409 Willow St # 600, Minneapolis, MN</ADDRESS>
+  <WEBSITE>http://www.navistar.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>82</CUSTOMER_ID>
+  <NAME>Discover Financial Services</NAME>
+  <ADDRESS>85 High St, Buffalo, NY</ADDRESS>
+  <WEBSITE>http://www.discoverfinancial.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>87</CUSTOMER_ID>
+  <NAME>Liberty Interactive</NAME>
+  <ADDRESS>2979 Hamburg St, Schenectady, NY</ADDRESS>
+  <WEBSITE>http://www.libertyinteractive.com</WEBSITE>
+  <CREDIT_LIMIT>1200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>116</CUSTOMER_ID>
+  <NAME>Baxter International</NAME>
+  <ADDRESS>810 Race St, Philadelphia, PA</ADDRESS>
+  <WEBSITE>http://www.baxter.com</WEBSITE>
+  <CREDIT_LIMIT>1900</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>120</CUSTOMER_ID>
+  <NAME>Stryker</NAME>
+  <ADDRESS>135 S 18Th St # 1, Philadelphia, PA</ADDRESS>
+  <WEBSITE>http://www.stryker.com</WEBSITE>
+  <CREDIT_LIMIT>2300</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>130</CUSTOMER_ID>
+  <NAME>Western Refining</NAME>
+  <ADDRESS>5565 Baynton St, Philadelphia, PA</ADDRESS>
+  <WEBSITE>http://www.wnr.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>154</CUSTOMER_ID>
+  <NAME>Universal Health Services</NAME>
+  <ADDRESS>1751 Madison Ave, Council Bluffs, IA</ADDRESS>
+  <WEBSITE>http://www.uhsinc.com</WEBSITE>
+  <CREDIT_LIMIT>3500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>158</CUSTOMER_ID>
+  <NAME>Owens &amp; Minor</NAME>
+  <ADDRESS>310 Broadway St, Alexandria, MN</ADDRESS>
+  <WEBSITE>http://www.owens-minor.com</WEBSITE>
+  <CREDIT_LIMIT>3600</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>168</CUSTOMER_ID>
+  <NAME>Advance Auto Parts</NAME>
+  <ADDRESS>2674 Collingwood St, Detroit, MI</ADDRESS>
+  <WEBSITE>http://www.advanceautoparts.com</WEBSITE>
+  <CREDIT_LIMIT>3700</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>172</CUSTOMER_ID>
+  <NAME>MasterCard</NAME>
+  <ADDRESS>660 Woodward Ave # 2290, Detroit, MI</ADDRESS>
+  <WEBSITE>http://www.mastercard.com</WEBSITE>
+  <CREDIT_LIMIT>3700</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>198</CUSTOMER_ID>
+  <NAME>Eastman Chemical</NAME>
+  <ADDRESS>2017 Convoy St, Tokyo, </ADDRESS>
+  <WEBSITE>http://www.eastman.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>202</CUSTOMER_ID>
+  <NAME>Sonic Automotive</NAME>
+  <ADDRESS>Piazza Del Congresso 22, San Giminiano, </ADDRESS>
+  <WEBSITE>http://www.sonicautomotive.com</WEBSITE>
+  <CREDIT_LIMIT>3600</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>210</CUSTOMER_ID>
+  <NAME>CST Brands</NAME>
+  <ADDRESS>2033 Spartacus St, Samutprakarn, </ADDRESS>
+  <WEBSITE>http://www.cstbrands.com</WEBSITE>
+  <CREDIT_LIMIT>3700</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>214</CUSTOMER_ID>
+  <NAME>eBay</NAME>
+  <ADDRESS>Via Del Disegno 194, Milano, </ADDRESS>
+  <WEBSITE>http://www.ebay.com</WEBSITE>
+  <CREDIT_LIMIT>1500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>222</CUSTOMER_ID>
+  <NAME>GameStop</NAME>
+  <ADDRESS>1605 Bazigar Crt, Pune, </ADDRESS>
+  <WEBSITE>http://www.gamestopcorp.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>225</CUSTOMER_ID>
+  <NAME>Reliance Steel &amp; Aluminum</NAME>
+  <ADDRESS>1609 Pakija Rd, New Delhi, </ADDRESS>
+  <WEBSITE>http://www.rsac.com</WEBSITE>
+  <CREDIT_LIMIT>3700</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>247</CUSTOMER_ID>
+  <NAME>Celgene</NAME>
+  <ADDRESS>1667 2010 St, Batavia, Ker</ADDRESS>
+  <WEBSITE>http://www.celgene.com</WEBSITE>
+  <CREDIT_LIMIT>500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>250</CUSTOMER_ID>
+  <NAME>Genworth Financial</NAME>
+  <ADDRESS>Piazza Svizzera, Roma, </ADDRESS>
+  <WEBSITE>http://www.genworth.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>258</CUSTOMER_ID>
+  <NAME>Priceline Group</NAME>
+  <ADDRESS>Via Notoriosa 1943, Ventimiglia, </ADDRESS>
+  <WEBSITE>http://www.pricelinegroup.com</WEBSITE>
+  <CREDIT_LIMIT>700</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>262</CUSTOMER_ID>
+  <NAME>MGM Resorts International</NAME>
+  <ADDRESS>Piazza Svizzera, San Giminiano, </ADDRESS>
+  <WEBSITE>http://www.mgmresorts.com</WEBSITE>
+  <CREDIT_LIMIT>100</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>270</CUSTOMER_ID>
+  <NAME>Fidelity National Financial</NAME>
+  <ADDRESS>Sonnenberg 4, Baden-Daettwil, AG</ADDRESS>
+  <WEBSITE>http://www.fnf.com</WEBSITE>
+  <CREDIT_LIMIT>500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>274</CUSTOMER_ID>
+  <NAME>Republic Services</NAME>
+  <ADDRESS>Kreuzritterplatz 5, Baden-Daettwil, AG</ADDRESS>
+  <WEBSITE>http://www.republicservices.com</WEBSITE>
+  <CREDIT_LIMIT>3500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>298</CUSTOMER_ID>
+  <NAME>Peter Kiewit Sons?</NAME>
+  <ADDRESS>1592 Silverado St, Bangalore, Kar</ADDRESS>
+  <WEBSITE>http://www.kiewit.com</WEBSITE>
+  <CREDIT_LIMIT>1400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>306</CUSTOMER_ID>
+  <NAME>Mosaic</NAME>
+  <ADDRESS>1606 Volunteers Blvd, Bangalore, Kar</ADDRESS>
+  <WEBSITE>http://www.mosaicco.com</WEBSITE>
+  <CREDIT_LIMIT>3500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>310</CUSTOMER_ID>
+  <NAME>Core-Mark Holding</NAME>
+  <ADDRESS>1611 Carmen Blvd, Bangalore, Kar</ADDRESS>
+  <WEBSITE>http://www.core-mark.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>318</CUSTOMER_ID>
+  <NAME>Cameron International</NAME>
+  <ADDRESS>1667 2010 St, Batavia, IL</ADDRESS>
+  <WEBSITE>http://www.c-a-m.com</WEBSITE>
+  <CREDIT_LIMIT>200</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>297</CUSTOMER_ID>
+  <NAME>Xcel Energy</NAME>
+  <ADDRESS>1540 Stripes Crt, Baden-Daettwil, AG</ADDRESS>
+  <WEBSITE>http://www.xcelenergy.com</WEBSITE>
+  <CREDIT_LIMIT>400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>126</CUSTOMER_ID>
+  <NAME>State Farm Insurance Cos.</NAME>
+  <ADDRESS>223 4Th Ave # 1100, Pittsburgh, PA</ADDRESS>
+  <WEBSITE>http://www.statefarm.com</WEBSITE>
+  <CREDIT_LIMIT>2300</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>131</CUSTOMER_ID>
+  <NAME>Johnson &amp; Johnson</NAME>
+  <ADDRESS>5640 Fishers Ln, Rockville, MD</ADDRESS>
+  <WEBSITE>http://www.jnj.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>134</CUSTOMER_ID>
+  <NAME>Marathon Petroleum</NAME>
+  <ADDRESS>4301 Ashland Ave, Baltimore, MD</ADDRESS>
+  <WEBSITE>http://www.marathonpetroleum.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>138</CUSTOMER_ID>
+  <NAME>Aetna</NAME>
+  <ADDRESS>200 E Fort Ave, Baltimore, MD</ADDRESS>
+  <WEBSITE>http://www.aetna.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>141</CUSTOMER_ID>
+  <NAME>AIG</NAME>
+  <ADDRESS>12817 Coastal Hwy, Ocean City, MD</ADDRESS>
+  <WEBSITE>http://www.aig.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>143</CUSTOMER_ID>
+  <NAME>Intel</NAME>
+  <ADDRESS>9435 Washington Blvd N # M, Laurel, MD</ADDRESS>
+  <WEBSITE>http://www.intel.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>147</CUSTOMER_ID>
+  <NAME>Pfizer</NAME>
+  <ADDRESS>206 S Broadway # 707, Rochester, MN</ADDRESS>
+  <WEBSITE>http://www.pfizer.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>150</CUSTOMER_ID>
+  <NAME>FedEx</NAME>
+  <ADDRESS>2215 Oak Industrial Dr Ne, Grand Rapids, MI</ADDRESS>
+  <WEBSITE>http://www.fedex.com</WEBSITE>
+  <CREDIT_LIMIT>2400</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>153</CUSTOMER_ID>
+  <NAME>New York Life Insurance</NAME>
+  <ADDRESS>215 4Th Ave Se, Cedar Rapids, IA</ADDRESS>
+  <WEBSITE>http://www.newyorklife.com</WEBSITE>
+  <CREDIT_LIMIT>2500</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>157</CUSTOMER_ID>
+  <NAME>Ingram Micro</NAME>
+  <ADDRESS>4811 S 76Th St # 205, Milwaukee, WI</ADDRESS>
+  <WEBSITE>http://www.ingrammicro.com</WEBSITE>
+  <CREDIT_LIMIT>3600</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>161</CUSTOMER_ID>
+  <NAME>American Airlines Group</NAME>
+  <ADDRESS>800 Carter St, Rochester, NY</ADDRESS>
+  <WEBSITE>http://www.aa.com</WEBSITE>
+  <CREDIT_LIMIT>3600</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>165</CUSTOMER_ID>
+  <NAME>Johnson Controls</NAME>
+  <ADDRESS>6Th And Master St, Philadelphia, PA</ADDRESS>
+  <WEBSITE>http://www.johnsoncontrols.com</WEBSITE>
+  <CREDIT_LIMIT>3600</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>170</CUSTOMER_ID>
+  <NAME>Goldman Sachs Group</NAME>
+  <ADDRESS>23985 Bedford Rd N, Battle Creek, MI</ADDRESS>
+  <WEBSITE>http://www.gs.com</WEBSITE>
+  <CREDIT_LIMIT>3700</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+ <ROW>
+  <CUSTOMER_ID>174</CUSTOMER_ID>
+  <NAME>Oracle</NAME>
+  <ADDRESS>701 Seneca St, Buffalo, NY</ADDRESS>
+  <WEBSITE>http://www.oracle.com</WEBSITE>
+  <CREDIT_LIMIT>5000</CREDIT_LIMIT>
+  <ORDERS>0</ORDERS>
+  <CONTACTS>1</CONTACTS>
+ </ROW>
+</ROWSET>
