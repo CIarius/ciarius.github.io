@@ -105,26 +105,33 @@ function drawPageNavigationButtons(){
   alpha = ( alpha < last_page_num - 4 )  ? alpha : last_page_num - 4;
 
   alpha = ( alpha < first_page_num )     ? first_page_num : alpha;
-  
-  text = "<input type='button' class='w3-button' onclick='navigate(this.value)' value='|<'/>";
 
-  text = text + "<input type='button' class='w3-button' onclick='navigate(this.value)' value='<'/>";
+  text = "<input onclick='navigate(this.value)' type='button' value='|&lt;'/>";
+
+  text = text + "<input type='button' onclick='navigate(this.value)' value='<'/>";
 
   for ( var page = alpha; page <= omega; page++ ){
-    text = text + "<input class='w3-button' onclick='navigate(this.value)' type='button' value='" + page + "'/>";    
+    text = text + "<input onclick='navigate(this.value)' type='button' value='" + page + "'/>";    
   }  
 
-  text = text + "<input type='button' class='w3-button' onclick='navigate(this.value)' value='>'/>";
+  text = text + "<input type='button' onclick='navigate(this.value)' value='>'/>";
 
-  text = text + "<input type='button' class='w3-button' onclick='navigate(this.value)' value='>|'/>";
-  
-  text = text + "<input id='search' title='search for...' type='search' value='" + criteria + "'/>";
-  
-  text = text + "<input type='button' class='w3-button fa fa-search' onclick='drawPage()'/>";
+  text = text + "<input type='button' onclick='navigate(this.value)' value='>|'/>";
+/*
+  document.getElementById("cell-1").innerHTML = text;  
 
-  text = text + "<input id='length' min='10' max='100' title='page length...' type='numeric' value='" + page_size + "'/>";
-  
-  text = text + "<input type='button' class='w3-button fa fa-refresh' onclick='drawPage()'/>";
+  document.getElementById("cell-2").innerHTML = "<input class='w3-input' id='search' placeholder='search for...' title='search for...' type='search' value='" + criteria + "'/>";  
+  document.getElementById("cell-3").innerHTML = "<button class='w3-button w3-border w3-large' onclick='drawPage()'/><i class='fa fa-search'></i></button>";
+
+  document.getElementById("cell-4").innerHTML = "<input class='w3-input' id='length' min='10' max='100' title='page length...' type='number' value='" + page_size + "'/>";
+  document.getElementById("cell-5").innerHTML = "<button class='w3-button w3-border w3-large' onclick='drawPage()'><i class='fa fa-refresh'></i></button>";
+*/
+
+  text += "<input id='search' placeholder='search for...' title='search for...' type='search' value='" + criteria + "'/>";  
+  text += "<button onclick='drawPage()'/><i class='fa fa-search'></i></button>";
+
+  text += "<input id='length' min='10' max='100' title='page length...' type='number' value='" + page_size + "'/>";
+  text += "<button onclick='drawPage()'><i class='fa fa-refresh'></i></button>";
 
   document.getElementById("navigation").innerHTML = text;
 

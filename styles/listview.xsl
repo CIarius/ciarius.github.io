@@ -5,17 +5,31 @@
 <head>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="styles/listview.css"/>
 <script type="text/javascript" src="scripts/listview.js"/>
 </head>
 <body onload="drawPage()">
-  <div id="navigation" style="display: flex; flex-direction: row; justify-content: center; align-items: center"/>
-  <table class="w3-table-all" id="results">
+<!--
+  <div class="w3-cell-row">
+    <div class="w3-container w3-cell" id="cell-1"/>
+    <div class="w3-container w3-cell" id="cell-2"/>
+    <div class="w3-container w3-cell" id="cell-3"/>
+    <div class="w3-container w3-cell" id="cell-4"/>
+    <div class="w3-container w3-cell" id="cell-5"/>
+  </div>
+-->
+  <div class="flex-container" id="navigation"/>
+  <table id="results">
     <thead>
-     <tr>
-       <xsl:for-each select="ROWSET/ROW[1]/*">
-         <th><xsl:value-of select="name(.)"/></th>
-       </xsl:for-each>
-     </tr> 
+      <tr>
+        <xsl:for-each select="ROWSET/ROW[1]/*">
+          <th>
+            <xsl:variable name="upper" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'"/>
+            <xsl:variable name="lower" select="'abcdefghijklmnopqrstuvwxyz'"/>
+            <xsl:value-of select="translate(translate(name(.), '_', ' '), $upper, $lower)"/>
+          </th>
+        </xsl:for-each>
+      </tr> 
     </thead>
     <xsl:for-each select="ROWSET/ROW">
     <tr>
