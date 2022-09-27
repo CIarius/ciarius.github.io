@@ -130,7 +130,7 @@ function drawPageNavigationButtons(){
   text += "<input id='search' placeholder='search for...' title='search for...' type='search' value='" + criteria + "'/>";  
   text += "<button onclick='drawPage()'/><i class='fa fa-search'></i></button>";
 
-  text += "<input id='length' min='10' max='100' title='page length...' type='number' value='" + page_size + "'/>";
+  text += "<input id='length' min='10' max='100' step='10' title='page length...' type='number' value='" + page_size + "'/>";
   text += "<button onclick='drawPage()'><i class='fa fa-refresh'></i></button>";
 
   document.getElementById("navigation").innerHTML = text;
