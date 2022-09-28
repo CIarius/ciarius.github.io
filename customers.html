@@ -9,13 +9,16 @@
     } else {
       xhttp = new XMLHttpRequest();
     }
+
     xhttp.open("GET", filename, false);
-    xhttp.send("");
+
+    xhttp.send(null);
+
     return xhttp.responseXML;
+
   }
 
   xml = loadXMLDoc("customers.xml");
-/*
   xsl = loadXMLDoc("scripts/listview.xsl");
 
   if (document.implementation && document.implementation.createDocument) {
@@ -24,8 +27,9 @@
     resultDocument = xsltProcessor.transformToFragment(xml, document);
     document.getElementById('container').appendChild(resultDocument);
   }
-*/
-document.getElementById('container').appendChild(xml);
+
+  document.getElementById('container').appendChild(xml);
+
 </script>
 </head>
 <body>
