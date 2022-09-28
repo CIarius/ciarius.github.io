@@ -9,24 +9,20 @@
 <script type="text/javascript" src="scripts/listview.js"/>
 </head>
 <body onload="drawPage()">
-<!--
-  <div class="w3-cell-row">
-    <div class="w3-container w3-cell" id="cell-1"/>
-    <div class="w3-container w3-cell" id="cell-2"/>
-    <div class="w3-container w3-cell" id="cell-3"/>
-    <div class="w3-container w3-cell" id="cell-4"/>
-    <div class="w3-container w3-cell" id="cell-5"/>
-  </div>
--->
   <div class="flex-container" id="navigation"/>
   <table id="results">
     <thead>
       <tr>
         <xsl:for-each select="ROWSET/ROW[1]/*">
           <th>
-            <xsl:variable name="upper" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'"/>
-            <xsl:variable name="lower" select="'abcdefghijklmnopqrstuvwxyz'"/>
-            <xsl:value-of select="translate(translate(name(.), '_', ' '), $upper, $lower)"/>
+<!--
+            <xsl:value-of select="name(.)"/>
+-->
+            <xsl:call-template name="heading">
+              <xsl:with-param name="str" select="name(.)"/>
+              <xsl:with-param name="chr">_</xsl:with-param>
+            </xsl:call-template>
+
           </th>
         </xsl:for-each>
       </tr> 
@@ -41,10 +37,26 @@
 </html>
 </xsl:template>
 
-<!-- use the tag names as column headers -->
+<!-- generate column header from tag name -->
 
-<xsl:template match="ROW[1]">
-<th><xsl:value-of select="name(.)"/></th>
+<xsl:template name="heading">
+  <xsl:param name="str"/>
+  <xsl:param name="chr"/>
+  <xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'"/>
+  <xsl:variable name="lowercase" select="'abcdefghijklmnopqrstuvwxyz'"/>
+  <xsl:variable name="prefix" select="substring-before($str, $chr)"/>
+  <xsl:choose>
+    <xsl:when test="not(normalize-space($prefix)='')">
+      <xsl:value-of select="concat(substring($prefix,1,1), translate(substring($prefix, 2), $uppercase, $lowercase), ' ')"/>
+      <xsl:call-template name="heading">
+        <xsl:with-param name="str" select="substring-after($str, $chr)"/>
+        <xsl:with-param name="chr" select="$chr"/>
+      </xsl:call-template>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:value-of select="concat(substring($str,1,1), translate(substring($str, 2), $uppercase, $lowercase))"/>
+    </xsl:otherwise>
+  </xsl:choose>
 </xsl:template>
 
 <!-- these nodes have specific behaviour -->
