@@ -15,6 +15,7 @@
   }
 
   xml = loadXMLDoc("customers.xml");
+/*
   xsl = loadXMLDoc("scripts/listview.xsl");
 
   if (document.implementation && document.implementation.createDocument) {
@@ -23,7 +24,8 @@
     resultDocument = xsltProcessor.transformToFragment(xml, document);
     document.getElementById('container').appendChild(resultDocument);
   }
-
+*/
+document.getElementById('container').appendChild(xml);
 </script>
 </head>
 <body>
