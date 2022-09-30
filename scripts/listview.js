@@ -117,20 +117,13 @@ function drawPageNavigationButtons(){
   text = text + "<input type='button' onclick='navigate(this.value)' value='>'/>";
 
   text = text + "<input type='button' onclick='navigate(this.value)' value='>|'/>";
-/*
-  document.getElementById("cell-1").innerHTML = text;  
-
-  document.getElementById("cell-2").innerHTML = "<input class='w3-input' id='search' placeholder='search for...' title='search for...' type='search' value='" + criteria + "'/>";  
-  document.getElementById("cell-3").innerHTML = "<button class='w3-button w3-border w3-large' onclick='drawPage()'/><i class='fa fa-search'></i></button>";
-
-  document.getElementById("cell-4").innerHTML = "<input class='w3-input' id='length' min='10' max='100' title='page length...' type='number' value='" + page_size + "'/>";
-  document.getElementById("cell-5").innerHTML = "<button class='w3-button w3-border w3-large' onclick='drawPage()'><i class='fa fa-refresh'></i></button>";
-*/
 
   text += "<input id='search' placeholder='search for...' title='search for...' type='search' value='" + criteria + "'/>";  
+
   text += "<button onclick='drawPage()'/><i class='fa fa-search'></i></button>";
 
   text += "<input id='length' min='10' max='100' step='10' title='page length...' type='number' value='" + page_size + "'/>";
+
   text += "<button onclick='drawPage()'><i class='fa fa-refresh'></i></button>";
 
   document.getElementById("navigation").innerHTML = text;
