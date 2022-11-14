@@ -8,8 +8,13 @@ function showModal(filename){
 
 	request.onload = function(){
 		document.getElementById("code").innerHTML = request.responseText.replaceAll("<","&lt;").replaceAll(">","&gt;");
-		console.log(request.responseType);
 		document.getElementById("modal").style.display = "block";
 	}
 
+}
+
+function toggleDisplay(obj){
+	// using indexOf here as a workaround for the style.display property being "" initially ?
+	obj.nextElementSibling.style.display = ( ["none", ""].indexOf(obj.nextElementSibling.style.display) != -1 ) ? "block" : "none";
+	obj.classList.toggle("open");
 }

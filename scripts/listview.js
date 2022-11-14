@@ -42,15 +42,95 @@ function navigate(btn){
 
 }
 
+function initPage(){
+
+	var headers = document.getElementById("results").getElementsByTagName("th");
+
+	for ( var index = 0; index < headers.length; index++ ){
+
+		headers[index].setAttribute('index', index);
+
+		// assign each header an onclick event that toggles the sort order and renders the page accordingly
+
+		headers[index].addEventListener('click', function(e){
+
+			e.target.order = ( e.target.order === "des" ) ? "asc" : "des"; 
+
+			var sorted = false;
+
+			while ( sorted == false ){
+
+				var rows = document.getElementById("results").getElementsByTagName("tr");
+	
+				sorted = true;
+
+				for ( var row = 1; row < rows.length - 1; row++ ){
+
+					// the comparitors are either numbers, dates, or strings so convert/compare them accordingly
+
+					var cmprtr_a = rows[row].children[e.target.cellIndex].lastChild.innerHTML ? rows[row].children[e.target.cellIndex].lastChild.innerHTML.toLowerCase() : rows[row].children[e.target.cellIndex].innerHTML.toLowerCase();
+
+					if ( cmprtr_a != " " ){
+						if ( ! isNaN( Number(cmprtr_a) ) )
+							cmprtr_a = Number(cmprtr_a);
+						else
+							if ( ! isNaN( Date.parse(cmprtr_a) ) )
+								cmprtr_a = Date.parse(cmprtr_a)
+					}
+
+					var cmprtr_b = rows[row+1].children[e.target.cellIndex].lastChild.innerHTML ? rows[row+1].children[e.target.cellIndex].lastChild.innerHTML.toLowerCase() : rows[row+1].children[e.target.cellIndex].innerHTML.toLowerCase();
+
+					if ( cmprtr_b != " " ){
+						if ( ! isNaN( Number(cmprtr_b) ) )
+							cmprtr_b = Number(cmprtr_b);
+						else
+							if ( ! isNaN( Date.parse(cmprtr_b) ) )
+								cmprtr_b = Date.parse(cmprtr_b)
+					}
+
+					if ( e.target.order == "des" ){
+
+						if ( cmprtr_a < cmprtr_b ){
+							sorted = false;
+							buffer = rows[row].innerHTML;
+							rows[row].innerHTML = rows[row+1].innerHTML;
+							rows[row+1].innerHTML = buffer;
+						}
+
+					}else{
+
+						if ( cmprtr_a > cmprtr_b ){
+							sorted = false;
+							buffer = rows[row].innerHTML;
+							rows[row].innerHTML = rows[row+1].innerHTML;
+							rows[row+1].innerHTML = buffer;
+						}
+
+					}
+
+				}
+
+			}
+
+			drawPage();
+
+		});
+
+	}
+
+	drawPage();
+
+}
+
 function drawPage(){
 
   var rows = document.getElementById("results").getElementsByTagName("tr");
 
-  // ignoring the header row count number of rows visible to client
+  // ignoring the header row determine number of rows visible to client
 
   var unfiltered = 0;
 
-  for ( var row = 0; row < rows.length; row++ ){
+  for ( var row = 1; row < rows.length; row++ ){
     if ( isVisible(rows[row]) ){
       unfiltered++;
     }
@@ -94,6 +174,10 @@ function drawPage(){
 
 }
 
+function logout(){
+	window.location = "/cgi-bin/logout.pl";	
+}
+
 function drawPageNavigationButtons(){
 
   var alpha, omega;
@@ -125,6 +209,8 @@ function drawPageNavigationButtons(){
   text += "<input id='length' min='10' max='100' step='10' title='page length...' type='number' value='" + page_size + "'/>";
 
   text += "<button onclick='drawPage()'><i class='fa fa-refresh'></i></button>";
+
+  text += "<button onclick='logout()'><i class='fa fa-sign-out'></i></button>";
 
   document.getElementById("navigation").innerHTML = text;
 

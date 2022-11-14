@@ -1,36 +1,75 @@
-.head{
-	background-color: lightgrey;
-	border: solid 1px;
-	font-size: 150%;
-	width: 100%;
-}
-
 .modal-outer{
-	background-color: rgba(0,0,0,0.4);;
-	display: none;
-	height: 100%;
-	left: 0;
-	overflow: auto;
-	position: fixed;
+
+	/* modal dialog occupying whole screen */
+
+	background-color: rgba(0, 0, 0, 0.5);	/* opaque */
+	
+	display: none;				/* initialliy hidden */
+
+	overflow: auto;				/* scrollbars (if required) */
+
+	padding: 10px;
+
+	position: fixed;			/* top left */
 	top: 0;
+	left: 0;
+
+	height: 100%;				/* fill window */
 	width: 100%;
-	z-index: 1;
+
+	z-index: 1;				/* bring to front */
+
 }
 
 .modal-inner{
 	background-color: white;
-	margin: 15% auto;
-	padding: 20px;
-	width: 80%;
+	border-left: solid 10px green;
+	margin: 5% auto;
+	overflow: auto;
+	padding: 10px;
+	width: 90%;
 }
 
 .link{
 	color: red;
+	cursor: pointer;
 }
 
 .close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+	color: black;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+	padding: 4px;
+}
+
+.collapsible-head{
+	background-color: #777;
+	border: solid black 1px;
+	color: #eee;
+	cursor: pointer;
+	font-size: 15px;
+	padding: 18px;
+	text-align: left;
+	width: 100%;
+}
+
+.collapsible-body{
+	background-color: #f1f1f1;
+	display: none;
+	padding: 10px;
+	overfow: hidden;
+}
+
+.collapsible-head::after{
+	content: '\002B';
+	float: right;
+}
+
+.open::after{
+	content: '\2212';
+}
+
+pre{
+	padding: 0px;
 }

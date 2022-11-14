@@ -7,15 +7,85 @@
 <title>index.html</title>
 </head>
 <body>
-<button class="head" onclick="showHide(this)" type="button">HTML, CSS, JavaScript, XML, and XSL</button>
-<p>In this example the data comes from the <a href="https://www.oracletutorial.com/getting-started/oracle-sample-database">Oracle XE sample database.</a>
-The data is returned as XML by the <a href="https://docs.oracle.com/cd/E11882_01/appdev.112/e23094/xdb13gen.htm#ADXDB5047">DBMS_XMLGEN</a> function.
-The XML is transformed to HTML by a XSL <span class="link" onclick="showModal('styles/listview.xsl')" title="click to view">stylesheet</span>.
-The HTML is styled by a CSS <span class="link" onclick="showModal('styles/listview.css')" title="click to view">stylesheet</span>.
-The end result can be seen <a href="customers.xml">here</a>.
-Please note that the rendering is slower because it is done here on the client and the orders/contacts links don't work because GitHub Pages only serves static content. 
-In a production environment I would transform the XML on the server in a Java servlet similar to this <span class="link" onclick="showModal('source/ListView.java')" title="click to view">servlet</span> and let the client handle the CSS and JavaScript.
-</p>
+
+<!-- HTML, CSS, JavaScript, XML, and XSL -->
+
+<button id="example" class="collapsible-head" onClick="toggleDisplay(this)" type="button">HTML, CSS, JavaScript, XML, and XSL</button>
+<div class="collapsible-body">
+	<p>In this example the data comes from the <a href="https://www.oracletutorial.com/getting-started/oracle-sample-database">Oracle XE sample database.</a>
+	The data is returned as XML by the <a href="https://docs.oracle.com/cd/E11882_01/appdev.112/e23094/xdb13gen.htm#ADXDB5047">DBMS_XMLGEN</a> function.
+	The XML is transformed to HTML by a XSL <span class="link" onclick="showModal('source/listview.xsl')" title="click to view">stylesheet</span>.
+	The HTML is styled by a CSS <span class="link" onclick="showModal('source/listview.css')" title="click to view">stylesheet</span>.
+	The end result can be seen <a href="customers.xml">here</a>.
+	Please note that the rendering is slower because  - here - it is done on the client (and the orders/contacts links don't work) because GitHub Pages only serves static content. 
+	In a production environment I would transform the XML on the server in a Java servlet similar to this <span class="link" onclick="showModal('source/ListView.java')" title="click to view">servlet</span> and let the client handle the CSS and JavaScript.
+</div>
+
+<!-- Java -->
+
+<button class="collapsible-head" onClick="toggleDisplay(this)" type="button">Java</button>
+<div class="collapsible-body">
+	<p>A simple <span class="link" onclick="showModal('/source/login.jsp')">login</span> JSP.
+	<p>A <span class="link" onclick="showModal('source/ListView.java')" title="click to view">servlet</span> using SQL metadata to generate a privilege sensitive list view of data, wrapping the data in XML to be transformed into HTML by a <span class="link" onclick="showModal('source/listview.xsl')" title="click to view">stylesheet</span>, leaving the client to style using <span class="link" onclick="showModal('source/listview.css')" title="click to view">CSS</span> and dynamically manipulate using <span class="link" onclick="showModal('/source/listview.js')">JavaScript</span>.
+	<p>A <span class="link" onclick="showModal('source/Meta2Bean.java')" title="click to view">class</span> which, given a table name, uses SQL metadata to generate a Java Bean class named for the table.
+	<p>A <span class="link" onclick="showModal('source/Data2Bean.java')" title="click to view">class</span> which, given a Bean created from SQL metadata which primary key property is populated, uses (via reflection) SQL metadata/data to populate the Bean with data.
+	<p>A <span class="link" onclick="showModal('source/DatabaseAbstract.java')" title="click to view">class</span> which, given a bean named for a table from which metadata the bean was generated, provides the CRUD methods for the given bean.
+</div>
+
+<!-- PERL -->
+
+<button class="collapsible-head" onClick="toggleDisplay(this)" type="button">PERL</button>
+<div class="collapsible-body">
+	<p>Using PERL <span class="link" onclick="showModal('/source/sorting_reports.pl')">here</span> for what the Practical Extracting and Reporting Language was meant to do: loading, sorting, and reporting data.
+	<p>Using PERL <span class="link" onclick="showModal('/source/oracle.pl')">here</span> to extract/report from an Oracle database.
+	<p>Using PERL <a class="link" href="/cgi-bin/listview.pl?procedure=orders_by_product_category_by_year">here</a> to extract/report from Oracle XE database running in Docker container.
+</div>
+
+<!-- PHP -->
+
+<button class="collapsible-head" onClick="toggleDisplay(this)" type="button">PHP</button>
+<div class="collapsible-body">
+	<p>In <span class="link" onclick="showModal('/source/formview.php')">formview.php</span> script I use mySQL metadata to generate a CRUD form for a given database table.
+</div>
+
+<!-- PL/SQL -->
+
+<button class="collapsible-head" onClick="toggleDisplay(this)" type="button">PL/SQL</button>
+<div class="collapsible-body">
+	<p>In this <span class="link" onclick="showModal('/source/employees.sql')">script</span> I'm generating a database of 1000 employees for testing purposes. Each employee must have a name and a coherent date of birth/hire.
+	<p>I webscrapped the surnames and forenames from various websites using <span class="link" onclick="showModal('source/scraping.py')">this</span> Python script.
+</div>
+
+<!-- Powershell -->
+
+<button class="collapsible-head" onClick="toggleDisplay(this)" type="button">Powershell</button>
+<div class="collapsible-body">
+	<p>I have an aversion to repetitive non-value added tasks. So much so I did an entire Python course (on Udemy) entitled Automate the Boring Stuff. 
+	I applied the principles learnt to other languages, in this case Powershell, to automate repetitive daily tasks. 
+	These are two typical examples: one personal, one professional.
+	<p>In this <span class="link" onclick="showModal('/source/terminations.ps1')">script</span> I automate the task of checking email for a message from HR with a an attachment.
+	If this email exists I open the attachment - an Excel spreadsheet - and check for any employee terminations at the Belfast site.
+	If there are any I check each instance of the MES system (one at each site) and delete any trace of those employees from that database.
+	<p>In this <span class="link" onclick="showModal('/source/freebook.ps1')">script</span> I automate the task of claiming the free ebook given away by <a href="https://www.packtpub.com/free-learning">Packt</a> on their website each day. Running as a scheduled taks it means I can mine free ebooks even when off work.
+</div>
+
+<!-- Python -->
+
+<button class="collapsible-head" onClick="toggleDisplay(this)" type="button">Python</button>
+<div class="collapsible-body">
+	<p>A predictive text engine <span class="link" onclick="showModal('/source/nextword.py')">example</span> which builds a dictionary of dictionaries where the key is a word and the value a dictionary of those words which come immediately after it (in the same sentence) sorted by their frequency of occurance.
+	<p>When creating employee data for testing, I webscrapped surnames and forenames from various websites using <span class="link" onclick="showModal('source/scraping.py')">this</span> Python script.
+	<p>While <span class="link" onclick="showModal('/source/sudoku_checker.py')">this</span> Sudoku checker I posted as an answer on Stack Overflow might seem trivial, I think it stands as a good example of the power of list comprehensions to reduce the need to write code.
+</div>
+
+<!-- Stack overflow -->
+
+<button class="collapsible-head" onClick="toggleDisplay(this)" type="button">Stack Oveflow</button>
+<div class="collapsible-body">
+	<p>An <a href="https://stackoverflow.com/questions/1454337/construct-a-href-using-xslt/73825252#73825252">answer</a> re constructing anchor tags using XSL.
+	<p>An <a href="https://stackoverflow.com/questions/7167279/regex-select-all-text-between-tags/59446438#59446438">answer</a> re selecting all text between tags in an HTML page.
+</div>
+
 <!-- popup modal dialog -->
 <div id="modal" class="modal-outer">
 	<div class="modal-inner">
@@ -23,5 +93,6 @@ In a production environment I would transform the XML on the server in a Java se
 		<pre id="code"></pre>
 	</div>
 </div>
+
 </body>
 </html>
