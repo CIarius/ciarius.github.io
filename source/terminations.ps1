@@ -11,11 +11,11 @@
 # 'Global Termination Report' in the title. For any such email with an attachment 
 # called 'Termination details 00000000.TXT' the attachment will be saved to 
 # 'C:\temp'. The attachment, a tab delimited text file, contains a list of 
-# employees from across all Bombardier sites whose employment has been terminated.
+# employees from across all customer sites whose employment has been terminated.
 # The attachment will be opened in Excel and filtered on the site (column 13) to 
-# determine if any terminations relate to the Belfast site. The employee number of 
-# any Belfast employee whose employee has been terminated will be deleted from all
-# of the Matrix site's MF_OPR file on which it is found. Upon completion the email 
+# determine if any terminations relate to the specific locale. The employee number of 
+# any locale employee whose employee has been terminated will be deleted from all
+# of the factory site employee file on which it is found. Upon completion the email 
 # from which the attachment originated will be marked as having been read.
 #
 
@@ -51,7 +51,7 @@ foreach ($email in $unread){
 
                 $usedrange = $worksheet.UsedRange
 
-                $usedrange.AutoFilter(13, "Belfast")
+                $usedrange.AutoFilter(13, "locale")
 
                 $rows = $worksheet.UsedRange.SpecialCells(12).Rows # 12 = $xlCellTypeVisible
 
@@ -63,20 +63,20 @@ foreach ($email in $unread){
                         $empID = $empID.ToString().PadLeft(5, '0') # 'cause it's a double
                     }
 
-                    # connect to each Matrix site in turn and, using Connx as a ODBC broker to access the RMS data files, delete each terminated employeed from the MF_OPR table
-                    # remembering that an employee may exist on none (they may be on FATS), one, or many of the MF_OPR tables across the multiple Matrix controlled factory sites
+                    # Connect to each factory site in turn and, using Connx as a ODBC broker to access an RMS data files, delete each terminated employeed from the employee table.
+                    # An employee may exist on none (they may be on the other MES system), one, or many of the employee tables across the multiple MES controlled factory sites.
 
-                    foreach ( $site in ("arpcnxliv", "nabcnxliv", "trmcnxliv", "mspcnxliv", "hawcnxliv", "duncnxliv", "wpucnxliv") ){
+                    foreach ( $site in ("site1", "site2", "site3", "site4", "site5", "site6", "site7") ){
 
                         $conn = new-object System.Data.Odbc.OdbcConnection
 
-                        $conn.connectionstring = "ODBC;server=redacted;dsn=iFactory;uid=" + $site + ";pwd=redacted"
+                        $conn.connectionstring = "ODBC;server=redacted;dsn=mes;uid=" + $site + ";pwd=redacted"
 
                         $conn.open()
 
-                        $sqlCommand = "DELETE FROM mf_opr WHERE operator_id = '" + $empID + "'"
+                        $sqlCommand = "DELETE FROM employees WHERE operator_id = '" + $empID + "'"
 
-                        #$sqlCommand = "SELECT * FROM mf_opr WHERE operator_id = '" + $empID + "'"
+                        #$sqlCommand = "SELECT * FROM employees WHERE operator_id = '" + $empID + "'"
 
                         $cmd = New-object System.Data.Odbc.OdbcCommand($sqlCommand,$conn) | out-null
 
