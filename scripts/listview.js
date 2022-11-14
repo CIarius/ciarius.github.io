@@ -54,6 +54,8 @@ function initPage(){
 
 		headers[index].addEventListener('click', function(e){
 
+			console.log("click!");
+
 			e.target.order = ( e.target.order === "des" ) ? "asc" : "des"; 
 
 			var sorted = false;
