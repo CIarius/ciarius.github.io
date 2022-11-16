@@ -1,0 +1,55 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<title><TMPL_VAR NAME="TABLE"></title>
+</head>
+<body>
+<TMPL_LOOP NAME="HEADING">
+	<TMPL_LOOP NAME="MESSAGE">
+		<div class="w3-panel w3-<TMPL_VAR NAME="LEVEL">"><h3><TMPL_VAR NAME="TABLE"></h3><p><TMPL_VAR NAME="VALUE"></p></div>
+	</TMPL_LOOP>
+</TMPL_LOOP>
+<form action="formview.pl" class="w3-container" method="POST">
+<TMPL_LOOP NAME="FIELDS">
+
+	<TMPL_LOOP NAME="ORDER_ID">
+		<label for="<TMPL_VAR NAME="COLUMN">"><TMPL_VAR NAME="COLUMN"></label> 
+		<input class="w3-input" <TMPL_VAR NAME="DISABLED"> id="<TMPL_VAR NAME="COLUMN">" name="<TMPL_VAR NAME="COLUMN">" type="<TMPL_VAR NAME="TYPE">" value="<TMPL_VAR NAME="VALUE">">
+	</TMPL_LOOP>
+
+	<TMPL_LOOP NAME="STATUS">
+		<label for="<TMPL_VAR NAME="COLUMN">"><TMPL_VAR NAME="COLUMN"></label> 
+		<input class="w3-input" <TMPL_VAR NAME="DISABLED"> id="<TMPL_VAR NAME="COLUMN">" name="<TMPL_VAR NAME="COLUMN">" type="<TMPL_VAR NAME="TYPE">" value="<TMPL_VAR NAME="VALUE">">
+	</TMPL_LOOP>
+
+	<TMPL_LOOP NAME="SALESMAN_ID">
+		<label for="<TMPL_VAR NAME="COLUMN">"><TMPL_VAR NAME="COLUMN"></label> 
+		<select class="w3-input" id="<TMPL_VAR NAME="COLUMN">" name="<TMPL_VAR NAME="COLUMN">">
+			<TMPL_LOOP NAME=OPTIONS>
+				<option <TMPL_VAR NAME="SELECTED"> value="<TMPL_VAR NAME="VALUE">"><TMPL_VAR NAME="LABEL"></option>
+			</TMPL_LOOP>
+		</select>
+	</TMPL_LOOP>
+
+	<TMPL_LOOP NAME="CUSTOMER_ID">
+		<label for="<TMPL_VAR NAME="COLUMN">"><TMPL_VAR NAME="COLUMN"></label> 
+		<select class="w3-input" id="<TMPL_VAR NAME="COLUMN">" name="<TMPL_VAR NAME="COLUMN">">
+			<TMPL_LOOP NAME=OPTIONS>
+				<option <TMPL_VAR NAME="SELECTED"> value="<TMPL_VAR NAME="VALUE">"><TMPL_VAR NAME="LABEL"></option>
+			</TMPL_LOOP>
+		</select>
+	</TMPL_LOOP>
+
+	<TMPL_LOOP NAME="ORDER_DATE">
+		<label for="<TMPL_VAR NAME="COLUMN">"><TMPL_VAR NAME="COLUMN"></label> 
+		<input class="w3-input" <TMPL_VAR NAME="DISABLED"> id="<TMPL_VAR NAME="COLUMN">" name="<TMPL_VAR NAME="COLUMN">" type="<TMPL_VAR NAME="TYPE">" value="<TMPL_VAR NAME="VALUE">">
+	</TMPL_LOOP>
+
+</TMPL_LOOP>
+<input id="ACTION" name="ACTION" type="hidden" value="<TMPL_VAR NAME="ACTION">">
+<input id="TABLE" name="TABLE" type="hidden" value="<TMPL_VAR NAME="TABLE">">
+<input class="w3-button w3-round w3-green" type="submit" value='<TMPL_VAR NAME="ACTION">'>
+</form>
+</body>
+</html>
