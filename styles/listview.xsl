@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="/styles/listview.css"/>
 <script type="text/javascript" src="/scripts/listview.js"/>
 </head>
-<body onload="drawPage()">
+<body onload="initPage()">
   <div class="flex-container" id="navigation"/>
   <table id="results">
     <thead>
