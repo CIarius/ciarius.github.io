@@ -1,14 +1,21 @@
 function showModal(filename){
 
+	console.log(filename);
+
 	let request = new XMLHttpRequest();
 
 	request.open("GET", filename);
 
 	request.send(null);
 
-	request.onload = function(){
+	request.onreadystatechange = function(){
+
+		//document.getElementById("title").innerHTML = filename;
+
 		document.getElementById("code").innerHTML = request.responseText.replaceAll("<","&lt;").replaceAll(">","&gt;");
-		document.getElementById("modal").style.display = "block";
+
+		document.getElementById("modal-outer").style.display 	= "block";
+
 	}
 
 }
