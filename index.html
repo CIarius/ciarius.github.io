@@ -2,6 +2,7 @@
 <head>
 <style>
 body {
+	background-color: lightgrey;
 	margin: 0px;
 }
 
@@ -18,19 +19,25 @@ img {
 	width: 100%;
 }
 
-.grid-item > div {
-	border: 1px solid black;
-	display: block;
-}
-
 .grid-item {
-	border: 1ps solid black;
+	align-items: center;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	margin: 5px;
+	text-align: center;
 }
 
 .grid-item11{
-	display: none;
+	background-color: WhiteSmoke;
+	border: 1px solid black;
+	border-radius: 10px;
 	grid-column: 1 / span 10;
 	grid-row: 2;
+	justify-items: left;
+	margin: 0px 5px 5px 5px;
 	padding: 5px;
 }
 
@@ -128,7 +135,7 @@ img {
 <div class="grid-container">
 
 	<div class="grid-item"><a href="#Docker"><img src="images\docker.png"></a></div>
-	<div class="grid-item"><a href="#HTML"><img src="images\HTML5.png"></a></div>
+	<div class="grid-item"><a href="#HTML"><img src="images\53JS.jpg"></a></div>
 	<div class="grid-item"><a href="#Java"><img src="images\java.png"></a></div>
 	<div class="grid-item"><a href="#Linux"><img src="images\linux.png"></a></div>
 	<div class="grid-item"><a href="#PERL"><img src="images\PERL.png"></a></div>
@@ -226,7 +233,7 @@ img {
 	<!-- Stack-overflow -->
 
 	<div class="grid-item11 skill" id="Stack-overflow">
-		<h3>Stackoverflw</h3>
+		<h3>Stackoverflow</h3>
 		<p>An <a href="https://stackoverflow.com/questions/1454337/construct-a-href-using-xslt/73825252#73825252">answer</a> re constructing anchor tags using XSL.
 		<p>An <a href="https://stackoverflow.com/questions/7167279/regex-select-all-text-between-tags/59446438#59446438">answer</a> re selecting all text between tags in an HTML page.
 	</div>
