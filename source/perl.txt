@@ -1,1 +1,2 @@
-This is a reference to a locally hosted app (Oracle/PERL/HTML/CSS/Javascript/XML/XSL) which I present at interview as demonstration of amy full stack developer credentials.
+This is a reference to a locally hosted app (Oracle/PERL/HTML/CSS/Javascript/XML/XSL) 
+which I present at interview as demonstration of my full stack developer credentials.
