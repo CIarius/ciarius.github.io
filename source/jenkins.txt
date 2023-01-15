@@ -3,6 +3,5 @@ docker stop demo
 docker rm demo
 docker rmi demo
 docker build c:/development/docker --file c:/development/docker/docker-spring-boot-jar -t demo
-for /F %%x in ('docker inspect -f "{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}" oracle-xe')^
-do set ip=%%x
+for /F %%x in ('docker inspect -f "{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}" oracle-xe') do set ip=%%x
 docker run --add-host=oracle:%ip% -p 9090:8080 -dit --name demo demo
