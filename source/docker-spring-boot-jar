@@ -1,0 +1,4 @@
+FROM openjdk
+MAINTAINER alan.mccune@ibm.com
+COPY ${PWD}jar/demo.jar demo.jar
+ENTRYPOINT ["java","-jar","demo.jar"]
