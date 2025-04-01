@@ -2,10 +2,11 @@ grep -i "\.com" downloads/schedule.dump | awk '{ for(i=1; i<=NF; i++) if ( $1 !=
 
 What we're doing here is...
 
-  1. extracting all lines continaing a reference to a file with the extension .com
+  1. extracting all lines containing a reference to a file with the extension .com
 
-  2. extracting the filename from the path i.e. everything after the ':' and including the '.com' extension
+  2. extracting the filename from the path i.e. everything after the ':' up to and including the '.com' extension
 
   3. sorting the filenames and removing duplicates
 
   4. dumping the sorted list of unique filenames into a file
+
