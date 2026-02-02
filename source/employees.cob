@@ -1,176 +1,142 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. EMPLOYEES.
+       PROGRAM-ID. employees.
       * load employee data from CSV file into an indexed file
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
        FILE-CONTROL.
-         SELECT EMP-IN-FILE
+
+         SELECT emp-in-file
            ASSIGN TO "employees.csv"
            ORGANIZATION IS LINE SEQUENTIAL
-           FILE STATUS IS WS-FS-IN.
-         SELECT EMP-OUT-FILE
+           FILE STATUS IS ws-fs-in.
+
+         SELECT emp-out-file
            ASSIGN TO "employees.idx"
            ORGANIZATION IS INDEXED
            ACCESS MODE IS DYNAMIC
-           RECORD KEY IS EMP-ID
-           FILE STATUS IS WS-FS-OUT.
+           RECORD KEY IS emp-id
+           FILE STATUS IS ws-fs-out.
 
        DATA DIVISION.
        FILE SECTION.
-       FD EMP-IN-FILE
+       FD emp-in-file
           RECORD CONTAINS 512 CHARACTERS
           LABEL RECORDS ARE STANDARD.
-       01 IN-LINE PIC X(512).
+       01 in-line PIC X(512).
 
-       FD  EMP-OUT-FILE.
+       FD  emp-out-file.
        COPY "EMPLOYEES.CPY".
 
        WORKING-STORAGE SECTION.
 
-       01 WS-FS-IN  PIC XX.
-       01 WS-FS-OUT PIC XX.
+       01 ws-fs-in  PIC XX.
+       01 ws-fs-out PIC XX.
 
-       01 WS-EMP-ID-TXT     PIC X(20).
-       01 WS-FIRST-TXT      PIC X(40).
-       01 WS-LAST-TXT       PIC X(40).
-       01 WS-GENDERID-TXT   PIC X(5).
-       01 WS-DOB-TXT        PIC X(20).
-       01 WS-AGE-TXT        PIC X(5).
-       01 WS-DEPTID-TXT     PIC X(5).
-       01 WS-ENTRY-TXT      PIC X(20).
-       01 WS-LOS-TXT        PIC X(20).
-       01 WS-ROLEID-TXT     PIC X(5).
-       01 WS-DUMMY-TXT      PIC X(5).
+       01 ws-text-fields.
+          05 ws-emp-id-txt     PIC X(20).
+          05 ws-first-txt      PIC X(40).
+          05 ws-last-txt       PIC X(40).
+          05 ws-genderid-txt   PIC X(5).
+          05 ws-dob-txt        PIC X(20).
+          05 WS-AGE-TXT        PIC X(5).
+          05 ws-deptid-txt     PIC X(5).
+          05 ws-entry-txt      PIC X(20).
+          05 ws-los-txt        PIC X(20).
+          05 ws-roleid-txt     PIC X(5).
+          05 ws-dummy-txt      PIC X(5).
 
-       01 WS-DOB-YYYY-TXT   PIC X(4).
-       01 WS-DOB-MM-TXT     PIC X(2).
-       01 WS-DOB-DD-TXT     PIC X(2).
+       01 ws-dob-yyyy-txt   PIC X(4).
+       01 ws-dob-mm-txt     PIC X(2).
+       01 ws-dob-dd-txt     PIC X(2).
 
-       01 WS-ENTRY-YYYY-TXT PIC X(4).
-       01 WS-ENTRY-MM-TXT   PIC X(2).
-       01 WS-ENTRY-DD-TXT   PIC X(2).
-
-       01 CR  PIC X VALUE X"0D".
-       01 LF  PIC X VALUE X"0A".
-       01 TAB PIC X VALUE X"09".
+       01 ws-entry-yyyy-txt PIC X(4).
+       01 ws-entry-mm-txt   PIC X(2).
+       01 ws-entry-dd-txt   PIC X(2).
 
        PROCEDURE DIVISION.
 
        MAIN-LOGIC.
 
-           OPEN INPUT EMP-IN-FILE
-                OUTPUT EMP-OUT-FILE.
+           OPEN INPUT emp-in-file
+                OUTPUT emp-out-file.
 
-           IF WS-FS-IN NOT = "00"
-               DISPLAY "OPEN INPUT FAILED, FS=" WS-FS-IN
+           IF ws-fs-in NOT = "00"
+               DISPLAY "OPEN INPUT FAILED, FS=" ws-fs-in
                STOP RUN
            END-IF.
 
-           IF WS-FS-OUT NOT = "00"
-               DISPLAY "OPEN OUTPUT FAILED, FS=" WS-FS-OUT
+           IF ws-fs-out NOT = "00"
+               DISPLAY "OPEN OUTPUT FAILED, FS=" ws-fs-out
                STOP RUN
            END-IF.
 
-           PERFORM LOAD-LOOP UNTIL WS-FS-IN = "10".
+           PERFORM LOAD-LOOP UNTIL ws-fs-in = "10".
 
-           CLOSE EMP-IN-FILE
-                 EMP-OUT-FILE.
+           CLOSE emp-in-file
+                 emp-out-file.
+
            DISPLAY "LOAD COMPLETE.".
+
            STOP RUN.
 
        LOAD-LOOP.
 
-           READ EMP-IN-FILE
-               AT END MOVE "10" TO WS-FS-IN
+           READ emp-in-file
+               AT END MOVE "10" TO ws-fs-in
                NOT AT END
                    PERFORM PROCESS-LINE
            END-READ.
 
        PROCESS-LINE.
 
-           DISPLAY IN-LINE.
+           DISPLAY in-line.
 
-           UNSTRING IN-LINE DELIMITED BY ","
-             INTO WS-EMP-ID-TXT
-                  WS-FIRST-TXT
-                  WS-LAST-TXT
-                  WS-GENDERID-TXT
-                  WS-DOB-TXT
+           UNSTRING in-line DELIMITED BY ","
+             INTO ws-emp-id-txt
+                  ws-first-txt
+                  ws-last-txt
+                  ws-genderid-txt
+                  ws-dob-txt
                   WS-AGE-TXT
-                  WS-DEPTID-TXT
-                  WS-ENTRY-TXT
-                  WS-LOS-TXT
-                  WS-ROLEID-TXT
-                  WS-DUMMY-TXT
+                  ws-deptid-txt
+                  ws-entry-txt
+                  ws-los-txt
+                  ws-roleid-txt
+                  ws-dummy-txt
            END-UNSTRING.
 
-           INSPECT WS-FIRST-TXT  REPLACING ALL '"' BY SPACE.
-           INSPECT WS-LAST-TXT   REPLACING ALL '"' BY SPACE.
-           INSPECT WS-DOB-TXT    REPLACING ALL '"' BY SPACE.
-           INSPECT WS-ENTRY-TXT  REPLACING ALL '"' BY SPACE.
-           INSPECT WS-LOS-TXT    REPLACING ALL '"' BY SPACE.
+           INSPECT ws-text-fields
+               REPLACING ALL X"0D" BY SPACE
+                         ALL X"0A" BY SPACE
+                         ALL X"09" BY SPACE
+                         ALL '"'   BY SPACE.
 
-           INSPECT WS-EMP-ID-TXT   REPLACING ALL X"0D" BY SPACE.
-           INSPECT WS-EMP-ID-TXT   REPLACING ALL X"0A" BY SPACE.
-           INSPECT WS-EMP-ID-TXT   REPLACING ALL X"09" BY SPACE.
-
-           INSPECT WS-GENDERID-TXT REPLACING ALL X"0D" BY SPACE.
-           INSPECT WS-GENDERID-TXT REPLACING ALL X"0A" BY SPACE.
-           INSPECT WS-GENDERID-TXT REPLACING ALL X"09" BY SPACE.
-
-           INSPECT WS-AGE-TXT      REPLACING ALL X"0D" BY SPACE.
-           INSPECT WS-AGE-TXT      REPLACING ALL X"0A" BY SPACE.
-           INSPECT WS-AGE-TXT      REPLACING ALL X"09" BY SPACE.
-
-           INSPECT WS-DEPTID-TXT   REPLACING ALL X"0D" BY SPACE.
-           INSPECT WS-DEPTID-TXT   REPLACING ALL X"0A" BY SPACE.
-           INSPECT WS-DEPTID-TXT   REPLACING ALL X"09" BY SPACE.
-
-           INSPECT WS-ROLEID-TXT   REPLACING ALL X"0D" BY SPACE.
-           INSPECT WS-ROLEID-TXT   REPLACING ALL X"0A" BY SPACE.
-           INSPECT WS-ROLEID-TXT   REPLACING ALL X"09" BY SPACE.
-
-           INSPECT WS-LOS-TXT      REPLACING ALL X"0D" BY SPACE.
-           INSPECT WS-LOS-TXT      REPLACING ALL X"0A" BY SPACE.
-           INSPECT WS-LOS-TXT      REPLACING ALL X"09" BY SPACE.
-
-           UNSTRING WS-DOB-TXT DELIMITED BY "/"
-             INTO WS-DOB-DD-TXT WS-DOB-MM-TXT WS-DOB-YYYY-TXT
+           UNSTRING ws-dob-txt DELIMITED BY "/"
+             INTO ws-dob-dd-txt ws-dob-mm-txt ws-dob-yyyy-txt
            END-UNSTRING.
 
-           UNSTRING WS-ENTRY-TXT DELIMITED BY "/"
-             INTO WS-ENTRY-DD-TXT WS-ENTRY-MM-TXT WS-ENTRY-YYYY-TXT
+           UNSTRING ws-entry-txt DELIMITED BY "/"
+             INTO ws-entry-dd-txt ws-entry-mm-txt ws-entry-yyyy-txt
            END-UNSTRING.
 
-           IF WS-EMP-ID-TXT     = SPACES MOVE "0" TO WS-EMP-ID-TXT.
-           IF WS-GENDERID-TXT   = SPACES MOVE "0" TO WS-GENDERID-TXT.
-           IF WS-DEPTID-TXT     = SPACES MOVE "0" TO WS-DEPTID-TXT.
-           IF WS-ROLEID-TXT     = SPACES MOVE "0" TO WS-ROLEID-TXT.
-           IF WS-DOB-YYYY-TXT   = SPACES MOVE "0" TO WS-DOB-YYYY-TXT.
-           IF WS-DOB-MM-TXT     = SPACES MOVE "0" TO WS-DOB-MM-TXT.
-           IF WS-DOB-DD-TXT     = SPACES MOVE "0" TO WS-DOB-DD-TXT.
-           IF WS-ENTRY-YYYY-TXT = SPACES MOVE "0" TO WS-ENTRY-YYYY-TXT.
-           IF WS-ENTRY-MM-TXT   = SPACES MOVE "0" TO WS-ENTRY-MM-TXT.
-           IF WS-ENTRY-DD-TXT   = SPACES MOVE "0" TO WS-ENTRY-DD-TXT.
+           MOVE ws-first-txt TO emp-first-name.
 
-           MOVE WS-FIRST-TXT TO EMP-FIRST-NAME.
+           MOVE ws-last-txt TO emp-last-name.
 
-           MOVE WS-LAST-TXT TO EMP-LAST-NAME.
+           MOVE FUNCTION NUMVAL-C(ws-emp-id-txt)       TO emp-id.
+           MOVE FUNCTION NUMVAL-C(ws-genderid-txt)     TO emp-gender-id.
 
-           MOVE FUNCTION NUMVAL-C(WS-EMP-ID-TXT)       TO EMP-ID.
-           MOVE FUNCTION NUMVAL-C(WS-GENDERID-TXT)     TO EMP-GENDER-ID.
+           MOVE FUNCTION NUMVAL-C(ws-dob-yyyy-txt)     TO emp-dob-yyyy.
+           MOVE FUNCTION NUMVAL-C(ws-dob-mm-txt)       TO emp-dob-mm.
+           MOVE FUNCTION NUMVAL-C(ws-dob-dd-txt)       TO emp-dob-dd.
 
-           MOVE FUNCTION NUMVAL-C(WS-DOB-YYYY-TXT)     TO EMP-DOB-YYYY.
-           MOVE FUNCTION NUMVAL-C(WS-DOB-MM-TXT)       TO EMP-DOB-MM.
-           MOVE FUNCTION NUMVAL-C(WS-DOB-DD-TXT)       TO EMP-DOB-DD.
+           MOVE FUNCTION NUMVAL-C(ws-deptid-txt)       TO emp-dept-id.
+           MOVE FUNCTION NUMVAL-C(ws-roleid-txt)       TO emp-role-id.
 
-           MOVE FUNCTION NUMVAL-C(WS-DEPTID-TXT)       TO EMP-DEPT-ID.
-           MOVE FUNCTION NUMVAL-C(WS-ROLEID-TXT)       TO EMP-ROLE-ID.
-
-           MOVE FUNCTION NUMVAL-C(WS-ENTRY-YYYY-TXT)   TO EMP-ENTRY-YYYY.
-           MOVE FUNCTION NUMVAL-C(WS-ENTRY-MM-TXT)     TO EMP-ENTRY-MM.
-           MOVE FUNCTION NUMVAL-C(WS-ENTRY-DD-TXT)     TO EMP-ENTRY-DD.
+           MOVE FUNCTION NUMVAL-C(ws-entry-yyyy-txt)   TO emp-entry-yyyy.
+           MOVE FUNCTION NUMVAL-C(ws-entry-mm-txt)     TO emp-entry-mm.
+           MOVE FUNCTION NUMVAL-C(ws-entry-dd-txt)     TO emp-entry-dd.
 
            WRITE EMP-REC
              INVALID KEY
-               DISPLAY "DUPLICATE KEY FOR EMP-ID=" EMP-ID.
+               DISPLAY "DUPLICATE KEY FOR emp-id=" emp-id.
